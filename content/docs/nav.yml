@@ -1,0 +1,65 @@
+- title: Marketplace Integrations
+  items:
+    - id: user-authentication
+      title: User Authentication
+    - id: catalog-sync
+      title: Catalog Sync
+    - id: orders-sync
+      title: Orders Sync
+    - id: order-status-sync
+      title: Order Status Sync
+    - id: order-pendency
+      title: Order Pendency
+    - id: order-cancel
+      title: Order Update - Cancel
+    - id: order-dispatch
+      title: Order Update - Dispatch
+    - id: inventory-update
+      title: Inventory Update
+    - id: invoice-fetching
+      title: Invoice Details Fetching
+    - id: manifest-generation
+      title: Custom Manifest Generation
+    - id: label-generation
+      title: Custom Label Generation
+    - id: label-fetching
+      title: Custom Label Fetching
+    - id: courier-details
+      title: Courier Details Fetching
+    
+- title: Marketplace API
+  items: 
+    - id: notes-for-reader
+      title: Notes for the Reader
+    - id: authentication
+      title: Authentication
+    - id: getproducts
+      title: Products Fetching
+    - id: getproductscount
+      title: Products Count Fetching
+    - id: getorders
+      title: Order Fetching
+    - id: getorders-sync
+      title: Order Status Sync
+    - id: order-onhold
+      title: Order Pendency (On-hold)
+    - id: order-acceptance
+      title: Order Acceptance (by seller)
+    - id: post-orders-cancel
+      title: Order Update - Cancel
+    - id: post-orders-dispatch
+      title: Order Update - Dispatch
+    - id: updateinventory
+      title: Inventory Updating
+    - id: getinvoicedetails
+      title: Invoice Details Fetching
+    - id: fetchmanifest
+      title: Custom Manifest (by Partner)
+    - id: postlabels
+      title: Custom Label Generation
+    - id: getlabels
+      title: Custom Label Fetching
+    - id: postcourierdetails
+      title: Courier Details Fetching
+    - id: error-codes
+      title: Error Codes
