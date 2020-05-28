@@ -1,13 +1,13 @@
 items:
   - title: Docs
-    to: /docs/user-authentication.html
+    to: /docs/authentication.html
     activeSelector: /docs/
-  - title: Tutorial
-    to: /tutorial/tutorial.html
-    activeSelector: /tutorial
+  # - title: Tutorial
+  #   to: /tutorial/tutorial.html
+  #   activeSelector: /tutorial
   # - title: Blog
   #   to: /blog/
   #   activeSelector: /blog
-  - title: Community
-    to: /community/videos.html
+  # - title: Community
+  #   to: /community/videos.html
   #   activeSelector: /community

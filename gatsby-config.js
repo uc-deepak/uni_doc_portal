@@ -9,6 +9,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Unicommerce: Cloud Based E-commerce Order Management Software',
+    /* customkey: siteurl */
     siteUrl: 'https://unicommerce.com/',
     rssFeedTitle: 'Unicommerce',
     rssFeedDescription: 'Cloud Based E-commerce Order Management Software',

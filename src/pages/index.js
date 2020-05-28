@@ -152,16 +152,16 @@ class Home extends Component {
                     }}>
                     <CtaItem>
                       <ButtonLink
-                        to="/docs/notes-for-reader.html"
+                        to="/docs/authentication.html"
                         type="primary">
-                        Get Started
+                        API References
                       </ButtonLink>
                     </CtaItem>
-                    <CtaItem>
+                    {/* <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
                         Take the Tutorial
                       </ButtonLink>
-                    </CtaItem>
+                    </CtaItem> */}
                   </Flex>
                 </Container>
               </div>

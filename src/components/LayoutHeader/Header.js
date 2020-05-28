@@ -16,7 +16,6 @@ import DocSearch from './DocSearch';
 
 // $FlowFixMe
 import navHeader from '../../../content/headerNav.yml';
-
 import logoSvg from 'icons/uni_logo.svg'; /* customkey: header logo */
 
 const Header = ({location}: {location: Location}) => (
@@ -41,7 +40,7 @@ const Header = ({location}: {location: Location}) => (
           display: 'flex',
           flexDirection: 'row',
           alignItems: 'center',
-          height: 60,
+          height: 70,
           [media.between('small', 'large')]: {
             height: 50,
           },
@@ -100,7 +99,7 @@ const Header = ({location}: {location: Location}) => (
           </span>
         </Link>
 
-        <nav
+        {<nav
           css={{ 
             flex: '1',
             display: 'flex',
@@ -141,7 +140,7 @@ const Header = ({location}: {location: Location}) => (
               
             />
           ))}
-        </nav>
+        </nav>}
 
         <DocSearch />
 
@@ -182,8 +181,8 @@ const Header = ({location}: {location: Location}) => (
             }}
             to="/versions">
             v{version}
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             css={{
               display: 'flex',
               alignItems: 'center',
@@ -213,8 +212,8 @@ const Header = ({location}: {location: Location}) => (
               }}>
               Languages
             </span>
-          </Link>
-          <a
+          </Link> */}
+          {/* <a
             css={{
               padding: '5px 10px',
               marginLeft: 10,
@@ -253,7 +252,7 @@ const Header = ({location}: {location: Location}) => (
   </header>
 );
 
-/* const LanguagesIcon = () => (
+const LanguagesIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -270,6 +269,6 @@ const Header = ({location}: {location: Location}) => (
       "
     />
   </svg>
-); */
+);
 
 export default Header;

@@ -20,7 +20,7 @@ redirect_from:
 
 This page is an overview of the React documentation and related resources.
 
-**Uniware** is a Cloud Based E-commerce Order Management Software. Learn what React is all about on [our homepage](/) or [in the tutorial](/tutorial/tutorial.html).
+**React** is a JavaScript library for building user interfaces. Learn what React is all about on [our homepage](/) or [in the tutorial](/tutorial/tutorial.html).
 
 ---
 

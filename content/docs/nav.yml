@@ -1,33 +1,33 @@
-- title: Marketplace Integrations
-  items:
-    - id: user-authentication
-      title: User Authentication
-    - id: catalog-sync
-      title: Catalog Sync
-    - id: orders-sync
-      title: Orders Sync
-    - id: order-status-sync
-      title: Order Status Sync
-    - id: order-pendency
-      title: Order Pendency
-    - id: order-cancel
-      title: Order Update - Cancel
-    - id: order-dispatch
-      title: Order Update - Dispatch
-    - id: inventory-update
-      title: Inventory Update
-    - id: invoice-fetching
-      title: Invoice Details Fetching
-    - id: manifest-generation
-      title: Custom Manifest Generation
-    - id: label-generation
-      title: Custom Label Generation
-    - id: label-fetching
-      title: Custom Label Fetching
-    - id: courier-details
-      title: Courier Details Fetching
+# - title: Marketplace Integrations
+#   items:
+#     - id: user-authentication
+#       title: User Authentication
+#     - id: catalog-sync
+#       title: Catalog Sync
+#     - id: orders-sync
+#       title: Orders Sync
+#     - id: order-status-sync
+#       title: Order Status Sync
+#     - id: order-pendency
+#       title: Order Pendency
+#     - id: order-cancel
+#       title: Order Update - Cancel
+#     - id: order-dispatch
+#       title: Order Update - Dispatch
+#     - id: inventory-update
+#       title: Inventory Update
+#     - id: invoice-fetching
+#       title: Invoice Details Fetching
+#     - id: manifest-generation
+#       title: Custom Manifest Generation
+#     - id: label-generation
+#       title: Custom Label Generation
+#     - id: label-fetching
+#       title: Custom Label Fetching
+#     - id: courier-details
+#       title: Courier Details Fetching
     
-- title: Marketplace API
+- title: Marketplace Integration
   items: 
     - id: notes-for-reader
       title: Notes for the Reader
@@ -61,5 +61,20 @@
       title: Custom Label Fetching
     - id: postcourierdetails
       title: Courier Details Fetching
+    - id: error-codes
+      title: Error Codes
+
+- title: Shipping Provider Integration
+  items: 
+    - id: notes-for-reader
+      title: Notes for the Reader
+    - id: sp-authentication
+      title: Shipping Provider Authentication
+    - id: waybill-generation
+      title: Waybill Generation
+    - id: shipment-status
+      title: Shipment Status
+    - id: generate-manifest
+      title: Generate Manifest
     - id: error-codes
       title: Error Codes

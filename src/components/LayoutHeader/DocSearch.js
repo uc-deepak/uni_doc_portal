@@ -16,6 +16,7 @@ class DocSearch extends Component<{}, State> {
   state = {
     enabled: true,
   };
+  
   componentDidMount() {
     // Initialize Algolia search.
     // TODO Is this expensive? Should it be deferred until a user is about to search?
@@ -23,8 +24,8 @@ class DocSearch extends Component<{}, State> {
     // customkey: docsearch (to be done)
     if (window.docsearch) {
       window.docsearch({
-        apiKey: '2c57563754d291dd2224297f304bc3e0',
-        indexName: 'uni-doc-search',
+        apiKey: '7509e262c8616a57b7284f929be76e7a',
+        indexName: 'unicommerce',
         inputSelector: '#algolia-doc-search',
       });
     } else {
