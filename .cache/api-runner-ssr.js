@@ -1,20 +1,20 @@
 var plugins = [{
-      plugin: require('/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/gatsby-plugin-glamor/gatsby-ssr'),
+      plugin: require('/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/gatsby-plugin-glamor/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/deepak/Documents/GitHub/uni_doc_portal/plugins/gatsby-remark-header-custom-ids/gatsby-ssr'),
+      plugin: require('/Users/Himanshu/product/uniware-doc/uni_doc_portal/plugins/gatsby-remark-header-custom-ids/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-41298772-1"},
     },{
-      plugin: require('/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[],"query":"\n         {\n          site {\n            siteMetadata {\n              title: rssFeedTitle\n              description: rssFeedDescription\n              siteUrl\n              site_url: siteUrl\n            }\n          }\n        }","feeds":[{"query":"\n              {\n                  allMarkdownRemark\n                  (limit: 10,\n                  filter: {fileAbsolutePath: {regex: \"/blog/\"}},\n                  sort: {fields: [fields___date],\n                  order: DESC}) {\n                    edges {\n                      node {\n                        fields {\n                          date\n                          slug\n                        }\n                        frontmatter {\n                          title\n                        }\n                        html\n                      }\n                    }\n                  }\n                }\n            ","output":"/feed.xml"}]},
     },{
-      plugin: require('/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Uni Docs","short_name":"Docs","lang":"en","start_url":"/","background_color":"#20232a","theme_color":"#20232a","display":"standalone","icon":"src/images/uni_logo.png","legacy":true},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

@@ -9,8 +9,6 @@ exports.init = init;
 exports.shouldUpdateScroll = shouldUpdateScroll;
 exports.RouteUpdates = void 0;
 
-var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
-
 var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
@@ -23,15 +21,12 @@ var _apiRunnerBrowser = require("./api-runner-browser");
 
 var _emitter = _interopRequireDefault(require("./emitter"));
 
-var _routeAnnouncerProps = require("./route-announcer-props");
-
 var _router = require("@reach/router");
 
 var _history = require("@reach/router/lib/history");
 
 var _gatsbyLink = require("gatsby-link");
 
-// Convert to a map for faster lookup in maybeRedirect()
 const redirectMap = _redirects.default.reduce((map, redirect) => {
   map[redirect.fromPath] = redirect;
   return map;
@@ -42,7 +37,9 @@ function maybeRedirect(pathname) {
 
   if (redirect != null) {
     if (process.env.NODE_ENV !== `production`) {
-      if (!_loader.default.isPageNotFound(pathname)) {
+      const pageResources = _loader.default.loadPageSync(pathname);
+
+      if (pageResources != null) {
         console.error(`The route "${pathname}" matches both a page and a redirect; this is probably not intentional.`);
       }
     }
@@ -214,28 +211,39 @@ class RouteAnnouncer extends _react.default.Component {
         pageName = document.title;
       }
 
-      const pageHeadings = document.querySelectorAll(`#gatsby-focus-wrapper h1`);
+      const pageHeadings = document.getElementById(`gatsby-focus-wrapper`).getElementsByTagName(`h1`);
 
       if (pageHeadings && pageHeadings.length) {
         pageName = pageHeadings[0].textContent;
       }
 
       const newAnnouncement = `Navigated to ${pageName}`;
+      const oldAnnouncement = this.announcementRef.current.innerText;
 
-      if (this.announcementRef.current) {
-        const oldAnnouncement = this.announcementRef.current.innerText;
-
-        if (oldAnnouncement !== newAnnouncement) {
-          this.announcementRef.current.innerText = newAnnouncement;
-        }
+      if (oldAnnouncement !== newAnnouncement) {
+        this.announcementRef.current.innerText = newAnnouncement;
       }
     });
   }
 
   render() {
-    return /*#__PURE__*/_react.default.createElement("div", (0, _extends2.default)({}, _routeAnnouncerProps.RouteAnnouncerProps, {
+    return _react.default.createElement("div", {
+      id: "gatsby-announcer",
+      style: {
+        position: `absolute`,
+        top: 0,
+        width: 1,
+        height: 1,
+        padding: 0,
+        overflow: `hidden`,
+        clip: `rect(0, 0, 0, 0)`,
+        whiteSpace: `nowrap`,
+        border: 0
+      },
+      "aria-live": "assertive",
+      "aria-atomic": "true",
       ref: this.announcementRef
-    }));
+    });
   }
 
 } // Fire on(Pre)RouteUpdate APIs
@@ -267,7 +275,7 @@ class RouteUpdates extends _react.default.Component {
   }
 
   render() {
-    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, this.props.children, /*#__PURE__*/_react.default.createElement(RouteAnnouncer, {
+    return _react.default.createElement(_react.default.Fragment, null, this.props.children, _react.default.createElement(RouteAnnouncer, {
       location: location
     }));
   }
