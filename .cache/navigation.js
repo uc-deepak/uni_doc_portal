@@ -4,6 +4,7 @@ import loader, { PageResourceStatus } from "./loader"
 import redirects from "./redirects.json"
 import { apiRunner } from "./api-runner-browser"
 import emitter from "./emitter"
+import { RouteAnnouncerProps } from "./route-announcer-props"
 import { navigate as reachNavigate } from "@reach/router"
 import { globalHistory } from "@reach/router/lib/history"
 import { parsePath } from "gatsby-link"
@@ -19,9 +20,7 @@ function maybeRedirect(pathname) {
 
   if (redirect != null) {
     if (process.env.NODE_ENV !== `production`) {
-      const pageResources = loader.loadPageSync(pathname)
-
-      if (pageResources != null) {
+      if (!loader.isPageNotFound(pathname)) {
         console.error(
           `The route "${pathname}" matches both a page and a redirect; this is probably not intentional.`
         )
@@ -170,40 +169,22 @@ class RouteAnnouncer extends React.Component {
       if (document.title) {
         pageName = document.title
       }
-      const pageHeadings = document
-        .getElementById(`gatsby-focus-wrapper`)
-        .getElementsByTagName(`h1`)
+      const pageHeadings = document.querySelectorAll(`#gatsby-focus-wrapper h1`)
       if (pageHeadings && pageHeadings.length) {
         pageName = pageHeadings[0].textContent
       }
       const newAnnouncement = `Navigated to ${pageName}`
-      const oldAnnouncement = this.announcementRef.current.innerText
-      if (oldAnnouncement !== newAnnouncement) {
-        this.announcementRef.current.innerText = newAnnouncement
+      if (this.announcementRef.current) {
+        const oldAnnouncement = this.announcementRef.current.innerText
+        if (oldAnnouncement !== newAnnouncement) {
+          this.announcementRef.current.innerText = newAnnouncement
+        }
       }
     })
   }
 
   render() {
-    return (
-      <div
-        id="gatsby-announcer"
-        style={{
-          position: `absolute`,
-          top: 0,
-          width: 1,
-          height: 1,
-          padding: 0,
-          overflow: `hidden`,
-          clip: `rect(0, 0, 0, 0)`,
-          whiteSpace: `nowrap`,
-          border: 0,
-        }}
-        aria-live="assertive"
-        aria-atomic="true"
-        ref={this.announcementRef}
-      ></div>
-    )
+    return <div {...RouteAnnouncerProps} ref={this.announcementRef}></div>
   }
 }
 

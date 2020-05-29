@@ -15,7 +15,7 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('../node_modules/gatsby-plugin-manifest/gatsby-browser.js'),
-      options: {"plugins":[],"name":"Uni Docs","short_name":"Docs","lang":"en","start_url":"/","background_color":"#20232a","theme_color":"#20232a","display":"standalone","icon":"src/images/uni_logo.png","legacy":true},
+      options: {"plugins":[],"name":"Uni Docs","short_name":"Docs","lang":"en","start_url":"/","background_color":"#20232a","theme_color":"#20232a","display":"standalone","icon":"src/images/uni_logo.png","legacy":true,"cache_busting_mode":"query","include_favicon":true,"theme_color_in_head":true,"cacheDigest":"538e134ae4e792543f9a5a98d51fe0d3"},
     },{
       plugin: require('../gatsby-browser.js'),
       options: {"plugins":[]},
