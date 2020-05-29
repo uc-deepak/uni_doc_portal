@@ -9,7 +9,6 @@
 module.exports = {
   siteMetadata: {
     title: 'Unicommerce: Cloud Based E-commerce Order Management Software',
-    /* customkey: siteurl */
     siteUrl: 'https://unicommerce.com/',
     rssFeedTitle: 'Unicommerce',
     rssFeedDescription: 'Cloud Based E-commerce Order Management Software',
@@ -25,6 +24,7 @@ module.exports = {
     'gatsby-plugin-netlify',
     'gatsby-plugin-glamor',
     'gatsby-plugin-twitter',
+    'gatsby-plugin-flow',
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {
