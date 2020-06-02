@@ -18,7 +18,7 @@ In cases where the partner requires the seller to block the inventory for orders
 | Request Type                                      | GET                                                      | 
 | Header                                            | 'Accept: application/json'                                | 
 | Sample URL                                        | http://{datacentre}.unicommerce.com/orders/pendency?pageNumber=1&pageSize=20&orderDateFrom=2020-01-01&orderDateTo=2020-01-15 |
-| ----------| --------------------------------------------------------------------------------- |
+
 
 ## Query Parameters
 
@@ -28,7 +28,7 @@ In cases where the partner requires the seller to block the inventory for orders
 | pageSize      | string | Page size       | Yes       | Fixed: 50                                              | 
 | orderDateFrom | date   | Order date from | No        | Format: yyyy-MM-dd'T'HH:mm:ss <br> Eg: 2017-01-02T08:12:53 | 
 | orderDateTo   | date   | Order date to   | No        | -                                                      | 
-|---------------|-------|----------------|--------------|------------------------------------------|
+
 
 
 ## Response Payload
@@ -76,4 +76,3 @@ In cases where the partner requires the seller to block the inventory for orders
 | 1.8.8  | onHold       | boolean | true if order not available for processing                                                                           | No        | Default: false                 | 
 | 1.8.9  | packetNumber | integer | No. of parcels in which the order has to be processed                                                                | No        | Default: 0                     | 
 | 1.8.10 | hasMore      | boolean | -                                                                                                                    | -         | Default: true                  | 
-|------|--------------|--------|---------------------------------------------|--------------|-----------|

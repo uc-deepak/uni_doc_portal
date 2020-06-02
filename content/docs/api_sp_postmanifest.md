@@ -20,7 +20,7 @@ This API is used to generate the manifest for AWBs. This is intended for shippin
 | End Point        | /manifest                                                               | 
 | Request Type     | POST                                                                     | 
 | Header           | 'Accept: application/json'                                               |
-| ------------------| ----------------------------- |
+
 
 
 ## Request Payload
@@ -38,7 +38,7 @@ This API is used to generate the manifest for AWBs. This is intended for shippin
 |PARAMETERS     		    |TYPE      	 		    |DESCRIPTION			|MANDATORY	|NOTES	
 |:----------------------|:-----------------:|:---------------|:---------:|:--------|
 |awbNumbers				      |integer				      |List of AWB numbers			|Yes		    | Eg.: 16090109      |    
-|-----------------|------------|---------------------|-------------------|---------------|
+
 
 ## Response 201:Success
 

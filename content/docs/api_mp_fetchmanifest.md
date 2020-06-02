@@ -19,7 +19,7 @@ This HTTP API details the method in which the channel manifest data is communica
 | End Point                                         | /orders/fetchManifest                                    | 
 | Request Type                                      | POST                                                     | 
 | Header                                            | 'Accept: application/json'                                | 
-| ----------------| ------------------------------- |
+
 
     
 ## Request Payload
@@ -49,7 +49,7 @@ This HTTP API details the method in which the channel manifest data is communica
 | 2.3   | productId     | string | Product ID of the item | Yes       | -                                                                                                                                                     | 
 | 2.4   | variantId     | string | Variant ID of the item | Yes       | -                                                                                                                                                     | 
 | 2.5   | quantity      | number | Qty of the item        | Yes       | -                                                                                                                                                     | 
-|------|--------------|-------|---------------|--------------|-------------------------------------------------------|
+
 
 
 

@@ -17,7 +17,7 @@ permalink: docs/postcourierdetails.html
 | Request Type     | GET                                                     | 
 | Header           | 'Accept: application/json'                                | 
 | Sample URL       | http://{datacentre}.unicommerce.com/courierDetails?orderItemIds=abc123 |
-| ----------------| ------------------------------------------------------------------------- |
+
 
 
 ## Query Parameters
@@ -25,7 +25,7 @@ permalink: docs/postcourierdetails.html
 |PARAMETERS     		    |TYPE      	 		    |DESCRIPTION			|MANDATORY	|NOTES	
 |:----------------------|:-----------------:|:---------------|:---------:|:--------|
 | orderItemIds | list | Item IDs    | Yes       | -     |
-|-----------------|------------|----------------|-------------------|-------------|
+
 
 
 ## Response Payload
@@ -49,5 +49,5 @@ permalink: docs/postcourierdetails.html
 | 3     | courierCode    | string | -                                                     | Yes       | Eg: Fedex                                                   | 
 | 4     | courierName    | string | Name of shipping provider                             | Yes       | Eg: Fedex                                                   | 
 | 5     | additionalInfo | string | Any additional information                            | No        | -                                                           | 
-|------|-------------|-----|----------------------------------|-------------|--------------------------|
+
 

@@ -17,7 +17,6 @@ In cases where seller acceptance to fulfilling each received order is desirable.
 | End Point        | /orders/acknowledge                                                     | 
 | Request Type     | POST                                                                    | 
 | Header           | 'Accept: application/json'                                              | 
-| ---------------------| --------------------------- |
 
 ## Request Payload
 
@@ -40,4 +39,3 @@ In cases where seller acceptance to fulfilling each received order is desirable.
 |PARAMETERS     		    |TYPE      	 		    |DESCRIPTION			|MANDATORY	|NOTES	
 |:----------------------|:-----------------:|:---------------|:---------:|:--------|
 |status   				      |string				      |Status of the request			|-		    |   Allowable: SUCCESS, FAILED, PARTIAL_SUCCESS |      
-|---------------|----------|---------------------|-----------------|---------------------------------------------------|

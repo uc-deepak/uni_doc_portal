@@ -20,7 +20,7 @@ This method is used to get the active status of each order at marketplace. This 
 | Request Type     | GET                                                                     | 
 | Header           | 'Accept: application/json'                                               | 
 | Sample URL       | http://{datacentre}.unicommerce.com/orders?pageNumber=1&pageSize=20&orderIds=abc |
-| -----------------| ------------------------------------------------------------------------------------------- |
+
 
 ## Query Parameters
 
@@ -30,7 +30,7 @@ This method is used to get the active status of each order at marketplace. This 
 | pageNumber    | string | Page number     | Yes | Default: 1     | 
 | pageSize      | string | Page size       | Yes | Fixed: 5      | 
 | orderIds      | string | Order ID’s      | Yes   | -              | 
-|-----------------|----------|------------------|-----------------|-----------------|
+
       
 
 
@@ -186,5 +186,5 @@ Following is the schema defined for the order resource in Unicommerce system. Wh
 | 1.13.8   | pincode                    | string  | Area Pin code (6 digit)                                                                                               | Yes             | -                                                                                                                                                                                                                                                                                                                                                                          | 
 | 1.13.9   | state                      | string  | State code                                                                                                            | Yes             | -                                                                                                                                                                                                                                                                                                                                                                          | 
 | 1.14     | additionalInfo             | string  | Any additional information                                                                                            | No              | -                                                                                                                                                                                                                                                                                                                                                                          | 
-|-------|----------------------------|--------|-----------------------------------|-----------|----------------------|
+
 

@@ -21,7 +21,7 @@ This API is used by Uniware to get the shipment status (after dispatch) from shi
 | Request Type     | GET                                                                     | 
 | Header           | 'Accept: application/json'                                               | 
 | Sample URL       | http://{datacenter}.unicommerce.com/waybillDetails?waybill=(waybillString)
-| ------------------| --------------------------------------------------------------------------- |
+
 
 
 ## Query Parameters
@@ -29,7 +29,7 @@ This API is used by Uniware to get the shipment status (after dispatch) from shi
 |PARAMETERS     		    |TYPE      	 		    |DESCRIPTION			|MANDATORY	|NOTES	
 |:----------------------|:-----------------:|:---------------|:---------:|:--------|
 |waybillString				      |string				      |List of way bill numbers			|Yes		    | Max. 50      |    
-|-----------------|------------|--------------------------|-------------------|------------|
+
 
 ## Response Payload
 
@@ -53,5 +53,5 @@ This API is used by Uniware to get the shipment status (after dispatch) from shi
 | currentStatus | preset | Most recent shipment status | -         | Allowable: Pending, Delivered, Returning to origin | 
 | waybill       | string | Shipment tracking number    | -         | Max.: 45                                           | 
 | statusDate    | date   | Last status date            | -         | -                                                  | 
-|--------------|-------|---------------------------|--------------|---------------------------------------------|
+
 

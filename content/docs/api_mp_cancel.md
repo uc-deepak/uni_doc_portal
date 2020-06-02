@@ -18,7 +18,6 @@ On cancellation of order by seller, the updated order status is posted on the ma
 | End Point        | /orders/cancel                                           | 
 | Request Type     | POST                                                     | 
 | Header           | 'Accept: application/json'                               | 
-| ----------------| -------------------------- |
 
     
 ## Request Payload
@@ -46,7 +45,6 @@ On cancellation of order by seller, the updated order status is posted on the ma
 | 2.2   | productId   | string | ProductID of orders to be marked as cancel | Yes       | -     | 
 | 2.3   | variantId   | string | VariantID of orders to be marked as cancel | Yes       | -     | 
 | 2.4   | quantity    | number | Qty to be cancelled                        | Yes       | -     | 
-|------|----------------|---------|----------------------------------------------|-----------------|---------|
 
 
 
@@ -73,4 +71,4 @@ On cancellation of order by seller, the updated order status is posted on the ma
 | 2     | orderItems   | -      | -                                                                | -         | -                                           | 
 | 2.1   | orderItemId  | string | Order ID of the orders failed to be marked cancel at your system | No        | -                                           | 
 | 2.2   | errorMessage | string | Reason of failure                                                | No        | -                                           |
-|------|-------------|-----|------------------------------------------|--------------|-----------------------------|
+

@@ -21,10 +21,12 @@ The products are fetched by Unicommerce from the partner portal/marketplace regu
 | Request Type     | GET                                                                     | 
 | Header           | 'Accept: application/json'                                               | 
 | Sample URL       | http://{datacenter}.unicommerce.com/products?pageNumber=1&pageSize=20&skus=abc&publishedStatus=PUBLISHED|
-| -----------| ------------------------------------------------------------------------ |
+
 
 
 ## Query Parameters
+
+
 
 |PARAMETERS     		    |TYPE      	 		    |DESCRIPTION			|MANDATORY	|NOTES	
 |:----------------------|:-----------------:|:---------------|:---------:|:--------|
@@ -32,7 +34,9 @@ The products are fetched by Unicommerce from the partner portal/marketplace regu
 |pageSize		   		      |string     		    |Page Size				|Yes		    |
 |skus			  		        |string				      |SKU ID					  |Yes		    |
 |publishedStatus		    |string				      |Posting Status		|Yes		    | Allowable: PUBLISHED, UNPUBLISHED       
-|-----------------|------------|----------------|-------------------|------------------------------------------|
+
+
+
 
 ## Response Payload
 
@@ -110,5 +114,7 @@ Following is the schema defined for the product resource in Unicommerce system. 
 | 1.7      | logisticsCost        | number  | -                                                                                                              | No        | -                                                            | 
 | 1.8      | additionalInfo       | string  | Any additional information of the product                                                                      | No        | -                                                            | 
 | 1.9      | created              | string  | Created date of the product on Marketplace                                                                     | No        | -                                                            | 
-|-------|------------------------|--------|-------------------------------|-------------|--------------------------|
+
+
+
 

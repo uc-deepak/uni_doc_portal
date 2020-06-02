@@ -20,7 +20,7 @@ This HTTP API details the method in which the label data is communicated to the 
 | End Point        | /orders/labels                                           | 
 | Request Type     | POST                                                     | 
 | Header           | 'Accept: application/json'                                | 
-| ----------------| ------------------------------- |
+
 
     
 ## Request Payload
@@ -64,7 +64,7 @@ This HTTP API details the method in which the label data is communicated to the 
 | 5.7   | integratedGstPercentage     | number | IGST percentage                           | Opt       | -                                                      | 
 | 5.8   | stateGstPercentage          | number | State GST percentage                      | Opt       | -                                                      | 
 | 5.9   | unionTerritoryGstPercentage | number | UT GST percentage                         | Opt       | -                                                      | 
-|------|------------------------------|-------|-------------------------|--------------|------|
+
 
 
 
@@ -92,5 +92,5 @@ This HTTP API details the method in which the label data is communicated to the 
 | 2     | orderItems   | list   | List of items in an order                                  | -         | -                                           | 
 | 2.1   | orderItemId  | string | Applicable if request is unsuccessful for few or all items | No        | -                                           | 
 | 2.2   | errorMessage | string | Reason of failure                                          | No        | -                                           |
-|------|-------------|-----|----------------------------------------|--------------|----------------------------|
+
 

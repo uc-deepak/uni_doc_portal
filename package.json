@@ -87,7 +87,8 @@
     "prettier": "yarn format:source && yarn format:examples",
     "prettier:diff": "yarn nit:source && yarn nit:examples",
     "reset": "rimraf ./.cache",
-    "start": "yarn dev"
+    "start": "yarn dev",
+    "deploy": "aws s3 sync ./public s3://documentation.unicommerce.com"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",

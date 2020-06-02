@@ -18,7 +18,7 @@ On dispatch of order by seller, the updated order status is posted on the market
 | End Point       | /orders/dispatch                                           | 
 | Request Type    | POST                                                     | 
 | Header          | 'Accept: application/json'                                | 
-| ----------------| ------------------------------- |
+
 
     
 ## Request Payload
@@ -62,7 +62,7 @@ On dispatch of order by seller, the updated order status is posted on the market
 | 1.6   | unionTerritoryGstPercentage | number  | UT GST percentage               | As applied | -     | 
 | 1.7   | integratedGstPercentage     | number  | IGST percentage                 | As applied | -     | 
 | 1.8   | compensationCessPercentage  | number  | Compensation cess percentage    | As applied | -     | 
-|-------|-------------------------------|----------|---------------------------------|--------------|------|
+
 
 
 
@@ -90,5 +90,5 @@ On dispatch of order by seller, the updated order status is posted on the market
 | 2     | orderItems   | -      | Only if some dispatch doesn't get updated | -         | -                                           | 
 | 2.1   | orderItemId  | string | Item ID                                   | No        | -                                           | 
 | 2.2   | errorMessage | string | -                                         | No        | -                                           |
-|------|-------------|-----|----------------------------------|-------------|-------------------------------|
+
 

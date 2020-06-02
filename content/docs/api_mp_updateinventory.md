@@ -16,7 +16,7 @@ permalink: docs/updateinventory.html
 | End Point                                         | /updateInventory                                         | 
 | Request Type                                      | POST                                                     | 
 | Header                                            | 'Accept: application/json'                                | 
-| ----------------| ------------------------------- |
+
 
 ## Request Payload
 
@@ -41,7 +41,7 @@ permalink: docs/updateinventory.html
 | 1.2   | variantId     | string  | Variant ID of the product for which Inventory needs to be updated | Yes       | -     | 
 | 1.3   | inventory     | integer | The stock count which needs to be updated on the Marketplace      | Yes       | -     | 
 | 1.4   | hsnCode       | string  | 6 digit uniform code that classifies products worldwide           | No        | -     |  
-|------|-------------|-------|----------------------------------------------------------------|--------------|------|
+
 
 
 ## Response Payload
@@ -70,5 +70,5 @@ Following is the schema defined for the product resource in Unicommerce system. 
 | 2.1   | productId         | string | Product ID of the products whose inventory update fails                      | Yes       | Eg: 54353                                   | 
 | 2.2   | variantId         | string | Variant ID of the products whose inventory update fails                      | Yes       | Eg: 54353-2                                 | 
 | 2.3   | message           | string | Reason for failure                                                           | Yes       | Eg: Mismatch                                | 
-|------|-----------------|-----|----------------------------------------------|--------------|---------------------|
+
 

@@ -123,6 +123,7 @@ const linkStyle = {
     borderBottomColor: colors.text,
   },
 };
+
 const sharedStyles = {
   link: linkStyle,
 
@@ -195,6 +196,8 @@ const sharedStyles = {
 
   markdown: {
     lineHeight: '25px',
+    border: '1px solid #ececec',
+    borderWidth: '0 1px 1px 0',
 
     '& .gatsby-highlight': {
       marginTop: 25,
@@ -249,6 +252,12 @@ const sharedStyles = {
 
     '& h3 + p, & h3 + p:first-of-type': {
       marginTop: 20,
+      
+    },
+
+    '& h2 + table, & h3 + table:first-of-type': {
+      marginTop: 30,
+      
     },
 
     '& p > code, & li > code': {
@@ -400,6 +409,8 @@ const sharedStyles = {
       maxWidth: '100%',
     },
 
+    
+
     '& ol': {
       listStyle: 'decimal',
     },
@@ -454,6 +465,49 @@ const sharedStyles = {
         marginTop: -60,
       },
     },
+
+    '& table': {
+      borderCollapse: 'collapse',
+      borderSpacing: 0,
+      marginBottom: '2rem',
+      fontVariantNumeric: 'lining-nums tabular-nums',
+  
+      '& th, td' : {
+        borderStyle: 'solid',
+        borderColor: '1px solid ${colors.divider}',
+        borderWidth: '0 0 1px',
+        padding: '0.5rem',
+        verticalAlign: 'top',
+        textAlign: '',
+  
+        '& [align="left"]': {
+          textAlign: 'left',
+        },
+  
+        '& [align="center"]': {
+          textAlign: 'center',
+        },
+  
+        '& [align="right"]': {
+          textAlign: 'right',
+        },
+      },
+  
+      '& th': {
+        borderTopWidth: '1px',
+        borderBottomWidth: '1px',
+        padding: '0.35rem 0.5rem 0.25rem',
+        background: `1px solid ${colors.uni_white}`,
+  
+        padding: '0.5rem',
+        // ${uppercase}
+        // fontWeight: `${weight('bold')}`,
+        fontSize: '1rem',
+        textTransform: 'uppercase',
+        color: `1px solid ${colors.uni_white}`,
+      },
+    },
+
   },
 };
 

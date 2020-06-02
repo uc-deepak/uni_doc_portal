@@ -16,14 +16,14 @@ permalink: docs/getinvoicedetails.html
 | Request Type     | GET                                                      | 
 | Header           | 'Accept: application/json'                               | 
 | Sample URL       |http://{datacentre}.unicommerce.com/invoiceDetails?orderId=abc123 |
-| ----------------| --------------------------------------------------------------------- |
+
 
 ## Query Parameters
 
 | PARAMETER            | TYPE   | DESCRIPTION                                                                     | MANDATORY | NOTES                                                                 |
 |:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------| 
 | orderId     | string  | Order ID                 | Yes       | -     |
-|-------------|----------|----------------|-----------------|------|
+
 
 ## Response Payload
 
@@ -63,5 +63,5 @@ permalink: docs/getinvoicedetails.html
 | 2.8   | integratedGstPercentage     | number | IGST percentage                                       | Yes       | -                                                      | 
 | 2.9   | compensationCessPercentage  | number | Compensation cess percentage                          | Yes       |                                                        | 
 | 3     | invoiceDate                 | date   | Date when invoice was generated                       | Yes       | Format: yyyy-MM-dd'T'HH:mm:ss, Eg: 2017-01-02T08:12:53 | 
-|------|------------------------------|-------|----------------------------|-------------|--------------------------|
+
 

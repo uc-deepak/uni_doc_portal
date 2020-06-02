@@ -24,7 +24,7 @@ This API is used to get AWB (waybill) for a shipment from the shipping provider/
 | End Point        | /waybill                                                               | 
 | Request Type     | POST                                                                     | 
 | Header           | 'Accept: application/json'                                               |
-| ------------------|--------------------------- |
+
 
 ## Request Payload
 
@@ -129,7 +129,7 @@ This API is used to get AWB (waybill) for a shipment from the shipping provider/
 | 11    | totalAmount            | number  | -                                          | -         | -                                                             | 
 | 12    | collectableAmount      | number  | Amount to be collected at time of delivery | -         | 0 for Prepaid mode                                            | 
 | 13    | courierName            | string  | -                                          | -         | Filled only if shipping provider assign self service provider | 
-|------|----------------------|--------|---------------------------|-------------|--------------------------|
+
 
 ## Response Payload
 
@@ -149,4 +149,3 @@ This API is used to get AWB (waybill) for a shipment from the shipping provider/
 | waybill       | String | Shipment tracking number   | -         | -                                                | 
 | shippingLabel | String | Path of the shipping label | No        | If shipping provider provides own shipping label | 
 | courierName   | String | Name of shipping provider  | -         | -                                                | 
-|--------------|-------|------------------------------|----------|----------------------------------------------|

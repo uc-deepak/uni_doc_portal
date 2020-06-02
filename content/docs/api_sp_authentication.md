@@ -16,7 +16,7 @@ This token needs to be used in all API requests by the seller.
 | Request Type     | POST                                                                     | 
 | Request Header   | 'Accept: application/json'                                               | 
 | Sample URL       | http://{datacentre}.unicommerce.com/authToken?username=abc&password=123 |
-| --------------------| --------------------------------------------------------------------------------- |
+
 
 ## Query Parameters
 
@@ -24,7 +24,7 @@ This token needs to be used in all API requests by the seller.
 |:----------------------|:-----------------:|:---------------|:---------:|:--------|
 | username				|string				| Username  |Yes		  |    -     | 
 | password		   		|string     		| Password  |Yes		  |    -     |
-|---------------|------------|----------------|-------------------|------------|    
+   
 
 ## Response Payload
 The response is a valid auth. token which is unique for each seller.
@@ -36,4 +36,3 @@ The response is a valid auth. token which is unique for each seller.
 |:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------|
 |status  				|string	   |Status of the request                     |Yes		    |Allowable: SUCCESS, INVALID_CREDENTIALS | 
 |accessToken	   		|string    |Authorization Token                       |Yes		    |Eg: as23djaexnsnJsnJSW34snapl |
-|-----------------|---------|----------------------|-----------------|----------------------------------------------|

@@ -19,14 +19,14 @@ The products are fetched by Unicommerce from the partner portal/marketplace regu
 | Request Type     | GET                                                                     | 
 | Header           | 'Accept: application/json'                                               | 
 | Sample URL       | http://{datacenter}.unicommerce.com/productsCount?publishedStatus=PUBLISHED  |
-| -----------------| ------------------------------------------------------------------------------------- |
+
 
 ## Query Parameters
 
 |PARAMETERS     		|TYPE      	 		|DESCRIPTION	 |MANDATORY	 |NOTES	
 |:----------------------|:-----------------:|:---------------|:---------:|:--------|
 |publishedStatus		|string				|Posting Status	 |Yes	     | Allowable: PUBLISHED, UNPUBLISHED      
-|-----------------|----------|----------------|----------------|---------------------------------------| 
+
 
 
 ## Response Payload

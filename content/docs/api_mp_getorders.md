@@ -20,7 +20,7 @@ The orders are fetched by Unicommerce from the partner portal/marketplace regula
 | Request Type     | GET                                                                     | 
 | Header           | 'Accept: application/json'                                               | 
 | Sample URL       | http://{datacentre}.unicommerce.com/orders?pageNumber=1&pageSize=20&orderStatus=CREATED |
-| --------| --------------------------------------------------------------------------------- |
+
 
 ## Query Parameters
 
@@ -34,7 +34,7 @@ The orders are fetched by Unicommerce from the partner portal/marketplace regula
 | orderDateFrom | date   | Order date from | -   | -              | 
 | orderDateTo   | date   | Order date to   | -   | -              | 
 | orderStatus   | string | Order status    | Yes | Fixed: CREATED | 
-|-----------------|----------|------------------|-----------------|-----------------|
+
       
 
 
@@ -190,5 +190,5 @@ Following is the schema defined for the order resource in Unicommerce system. Wh
 | 1.13.8   | pincode                    | string  | Area Pin code (6 digit)                                                                                               | Yes             | -                                                                                                                                                                                                                                                                                                                                                                          | 
 | 1.13.9   | state                      | string  | State code                                                                                                            | Yes             | -                                                                                                                                                                                                                                                                                                                                                                          | 
 | 1.14     | additionalInfo             | string  | Any additional information                                                                                            | No              | -                                                                                                                                                                                                                                                                                                                                                                          | 
-|-------|----------------------------|--------|-----------------------------------|-----------|----------------------|
+
 
