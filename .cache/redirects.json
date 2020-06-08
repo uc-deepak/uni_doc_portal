@@ -42,6 +42,18 @@
     "toPath": "/docs/postcourierdetails.html"
   },
   {
+    "fromPath": "/docs/sp-faq",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/sp-faq.html"
+  },
+  {
+    "fromPath": "/docs/sp-faq/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/sp-faq.html"
+  },
+  {
     "fromPath": "/docs/authentication",
     "isPermanent": false,
     "redirectInBrowser": true,
