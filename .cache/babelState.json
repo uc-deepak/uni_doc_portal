@@ -3,35 +3,35 @@
     "develop": {
       "plugins": [
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/glamor/babel-hoist.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/glamor/babel-hoist.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-react/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-react/lib/index.js",
           "options": {
             "pragma": "Glamor.createElement"
           }
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-flow/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-flow/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
           }
@@ -45,35 +45,35 @@
     "develop-html": {
       "plugins": [
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/glamor/babel-hoist.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/glamor/babel-hoist.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-react/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-react/lib/index.js",
           "options": {
             "pragma": "Glamor.createElement"
           }
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-flow/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-flow/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
           }
@@ -87,35 +87,35 @@
     "build-html": {
       "plugins": [
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/glamor/babel-hoist.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/glamor/babel-hoist.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-react/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-react/lib/index.js",
           "options": {
             "pragma": "Glamor.createElement"
           }
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-flow/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-flow/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
           }
@@ -129,35 +129,35 @@
     "build-javascript": {
       "plugins": [
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/glamor/babel-hoist.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/glamor/babel-hoist.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-react/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-react/lib/index.js",
           "options": {
             "pragma": "Glamor.createElement"
           }
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-flow/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-flow/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/deepak/Documents/GitHub/uni_doc_portal/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/Users/Himanshu/product/uniware-doc/uni_doc_portal/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
           }

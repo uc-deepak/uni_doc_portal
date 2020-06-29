@@ -6,6 +6,186 @@
     "toPath": "/"
   },
   {
+    "fromPath": "/warnings/dont-call-proptypes",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/dont-call-proptypes.html"
+  },
+  {
+    "fromPath": "/warnings/dont-call-proptypes/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/dont-call-proptypes.html"
+  },
+  {
+    "fromPath": "/warnings/invalid-aria-prop",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/invalid-aria-prop.html"
+  },
+  {
+    "fromPath": "/warnings/invalid-aria-prop/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/invalid-aria-prop.html"
+  },
+  {
+    "fromPath": "/warnings/special-props",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/special-props.html"
+  },
+  {
+    "fromPath": "/warnings/special-props/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/special-props.html"
+  },
+  {
+    "fromPath": "/warnings/legacy-factories",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/legacy-factories.html"
+  },
+  {
+    "fromPath": "/warnings/legacy-factories/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/legacy-factories.html"
+  },
+  {
+    "fromPath": "/warnings/invalid-hook-call-warning",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/invalid-hook-call-warning.html"
+  },
+  {
+    "fromPath": "/warnings/invalid-hook-call-warning/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/invalid-hook-call-warning.html"
+  },
+  {
+    "fromPath": "/warnings/unknown-prop",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/unknown-prop.html"
+  },
+  {
+    "fromPath": "/warnings/unknown-prop/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/unknown-prop.html"
+  },
+  {
+    "fromPath": "/warnings/refs-must-have-owner",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/refs-must-have-owner.html"
+  },
+  {
+    "fromPath": "/warnings/refs-must-have-owner/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/warnings/refs-must-have-owner.html"
+  },
+  {
+    "fromPath": "/docs/create-fragment",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/create-fragment.html"
+  },
+  {
+    "fromPath": "/docs/create-fragment/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/create-fragment.html"
+  },
+  {
+    "fromPath": "/docs/perf",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/perf.html"
+  },
+  {
+    "fromPath": "/docs/perf/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/perf.html"
+  },
+  {
+    "fromPath": "/docs/pure-render-mixin",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/pure-render-mixin.html"
+  },
+  {
+    "fromPath": "/docs/pure-render-mixin/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/pure-render-mixin.html"
+  },
+  {
+    "fromPath": "/docs/shallow-renderer",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/shallow-renderer.html"
+  },
+  {
+    "fromPath": "/docs/shallow-renderer/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/shallow-renderer.html"
+  },
+  {
+    "fromPath": "/docs/shallow-compare",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/shallow-compare.html"
+  },
+  {
+    "fromPath": "/docs/shallow-compare/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/shallow-compare.html"
+  },
+  {
+    "fromPath": "/docs/two-way-binding-helpers",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/two-way-binding-helpers.html"
+  },
+  {
+    "fromPath": "/docs/two-way-binding-helpers/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/two-way-binding-helpers.html"
+  },
+  {
+    "fromPath": "/docs/update",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/update.html"
+  },
+  {
+    "fromPath": "/docs/update/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/update.html"
+  },
+  {
+    "fromPath": "/docs/authentication",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/authentication.html"
+  },
+  {
+    "fromPath": "/docs/authentication/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/authentication.html"
+  },
+  {
     "fromPath": "/docs/order-acceptance",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -40,30 +220,6 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/postcourierdetails.html"
-  },
-  {
-    "fromPath": "/docs/sp-faq",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/sp-faq.html"
-  },
-  {
-    "fromPath": "/docs/sp-faq/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/sp-faq.html"
-  },
-  {
-    "fromPath": "/docs/authentication",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/authentication.html"
-  },
-  {
-    "fromPath": "/docs/authentication/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/authentication.html"
   },
   {
     "fromPath": "/docs/post-orders-dispatch",
@@ -102,6 +258,18 @@
     "toPath": "/docs/getlabels.html"
   },
   {
+    "fromPath": "/docs/addons",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/addons.html"
+  },
+  {
+    "fromPath": "/docs/addons/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/addons.html"
+  },
+  {
     "fromPath": "/docs/getinvoicedetails",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -112,18 +280,6 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/getinvoicedetails.html"
-  },
-  {
-    "fromPath": "/docs/order-onhold",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/order-onhold.html"
-  },
-  {
-    "fromPath": "/docs/order-onhold/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/order-onhold.html"
   },
   {
     "fromPath": "/docs/postlabels",
@@ -138,18 +294,6 @@
     "toPath": "/docs/postlabels.html"
   },
   {
-    "fromPath": "/docs/updateinventory",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/updateinventory.html"
-  },
-  {
-    "fromPath": "/docs/updateinventory/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/updateinventory.html"
-  },
-  {
     "fromPath": "/docs/getproductscount",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -160,270 +304,6 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/getproductscount.html"
-  },
-  {
-    "fromPath": "/docs/shipment-status",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/shipment-status.html"
-  },
-  {
-    "fromPath": "/docs/shipment-status/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/shipment-status.html"
-  },
-  {
-    "fromPath": "/docs/sp-authentication",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/sp-authentication.html"
-  },
-  {
-    "fromPath": "/docs/sp-authentication/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/sp-authentication.html"
-  },
-  {
-    "fromPath": "/docs/generate-manifest",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/generate-manifest.html"
-  },
-  {
-    "fromPath": "/docs/generate-manifest/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/generate-manifest.html"
-  },
-  {
-    "fromPath": "/docs/getproducts",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/getproducts.html"
-  },
-  {
-    "fromPath": "/docs/getproducts/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/getproducts.html"
-  },
-  {
-    "fromPath": "/docs/waybill-generation",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/waybill-generation.html"
-  },
-  {
-    "fromPath": "/docs/waybill-generation/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/waybill-generation.html"
-  },
-  {
-    "fromPath": "/docs/getorders",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/getorders.html"
-  },
-  {
-    "fromPath": "/docs/getorders/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/getorders.html"
-  },
-  {
-    "fromPath": "/docs/getorders-sync",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/getorders-sync.html"
-  },
-  {
-    "fromPath": "/docs/getorders-sync/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/getorders-sync.html"
-  },
-  {
-    "fromPath": "/warnings/invalid-aria-prop",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/invalid-aria-prop.html"
-  },
-  {
-    "fromPath": "/warnings/invalid-aria-prop/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/invalid-aria-prop.html"
-  },
-  {
-    "fromPath": "/warnings/invalid-hook-call-warning",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/invalid-hook-call-warning.html"
-  },
-  {
-    "fromPath": "/warnings/invalid-hook-call-warning/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/invalid-hook-call-warning.html"
-  },
-  {
-    "fromPath": "/warnings/legacy-factories",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/legacy-factories.html"
-  },
-  {
-    "fromPath": "/warnings/legacy-factories/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/legacy-factories.html"
-  },
-  {
-    "fromPath": "/warnings/dont-call-proptypes",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/dont-call-proptypes.html"
-  },
-  {
-    "fromPath": "/warnings/dont-call-proptypes/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/dont-call-proptypes.html"
-  },
-  {
-    "fromPath": "/warnings/unknown-prop",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/unknown-prop.html"
-  },
-  {
-    "fromPath": "/warnings/unknown-prop/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/unknown-prop.html"
-  },
-  {
-    "fromPath": "/warnings/refs-must-have-owner",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/refs-must-have-owner.html"
-  },
-  {
-    "fromPath": "/warnings/refs-must-have-owner/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/refs-must-have-owner.html"
-  },
-  {
-    "fromPath": "/warnings/special-props",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/special-props.html"
-  },
-  {
-    "fromPath": "/warnings/special-props/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/warnings/special-props.html"
-  },
-  {
-    "fromPath": "/docs/create-fragment",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/create-fragment.html"
-  },
-  {
-    "fromPath": "/docs/create-fragment/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/create-fragment.html"
-  },
-  {
-    "fromPath": "/docs/perf",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/perf.html"
-  },
-  {
-    "fromPath": "/docs/perf/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/perf.html"
-  },
-  {
-    "fromPath": "/docs/shallow-renderer",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/shallow-renderer.html"
-  },
-  {
-    "fromPath": "/docs/shallow-renderer/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/shallow-renderer.html"
-  },
-  {
-    "fromPath": "/docs/shallow-compare",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/shallow-compare.html"
-  },
-  {
-    "fromPath": "/docs/shallow-compare/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/shallow-compare.html"
-  },
-  {
-    "fromPath": "/docs/pure-render-mixin",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/pure-render-mixin.html"
-  },
-  {
-    "fromPath": "/docs/pure-render-mixin/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/pure-render-mixin.html"
-  },
-  {
-    "fromPath": "/docs/update",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/update.html"
-  },
-  {
-    "fromPath": "/docs/update/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/update.html"
-  },
-  {
-    "fromPath": "/docs/addons",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/addons.html"
-  },
-  {
-    "fromPath": "/docs/addons/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/addons.html"
-  },
-  {
-    "fromPath": "/docs/two-way-binding-helpers",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/two-way-binding-helpers.html"
-  },
-  {
-    "fromPath": "/docs/two-way-binding-helpers/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/two-way-binding-helpers.html"
   },
   {
     "fromPath": "/docs/error-codes",
@@ -438,6 +318,42 @@
     "toPath": "/docs/error-codes.html"
   },
   {
+    "fromPath": "/docs/order-onhold",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/order-onhold.html"
+  },
+  {
+    "fromPath": "/docs/order-onhold/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/order-onhold.html"
+  },
+  {
+    "fromPath": "/docs/updateinventory",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/updateinventory.html"
+  },
+  {
+    "fromPath": "/docs/updateinventory/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/updateinventory.html"
+  },
+  {
+    "fromPath": "/docs/sp-authentication",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/sp-authentication.html"
+  },
+  {
+    "fromPath": "/docs/sp-authentication/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/sp-authentication.html"
+  },
+  {
     "fromPath": "/docs/notes-for-reader",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -448,6 +364,42 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/notes-for-reader.html"
+  },
+  {
+    "fromPath": "/docs/sp-faq",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/sp-faq.html"
+  },
+  {
+    "fromPath": "/docs/sp-faq/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/sp-faq.html"
+  },
+  {
+    "fromPath": "/docs/shipment-status",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/shipment-status.html"
+  },
+  {
+    "fromPath": "/docs/shipment-status/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/shipment-status.html"
+  },
+  {
+    "fromPath": "/docs/generate-manifest",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/generate-manifest.html"
+  },
+  {
+    "fromPath": "/docs/generate-manifest/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/generate-manifest.html"
   },
   {
     "fromPath": "/docs/cdn-links",
@@ -540,28 +492,16 @@
     "toPath": "/docs/faq-ajax.html"
   },
   {
-    "fromPath": "/docs/faq-build",
+    "fromPath": "/docs/faq-internals",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/faq-build.html"
+    "toPath": "/docs/faq-internals.html"
   },
   {
-    "fromPath": "/docs/faq-build/",
+    "fromPath": "/docs/faq-internals/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/faq-build.html"
-  },
-  {
-    "fromPath": "/docs/faq-styling",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/faq-styling.html"
-  },
-  {
-    "fromPath": "/docs/faq-styling/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/faq-styling.html"
+    "toPath": "/docs/faq-internals.html"
   },
   {
     "fromPath": "/docs/faq-state",
@@ -576,40 +516,16 @@
     "toPath": "/docs/faq-state.html"
   },
   {
-    "fromPath": "/docs/faq-versioning",
+    "fromPath": "/docs/faq-build",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/faq-versioning.html"
+    "toPath": "/docs/faq-build.html"
   },
   {
-    "fromPath": "/docs/faq-versioning/",
+    "fromPath": "/docs/faq-build/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/faq-versioning.html"
-  },
-  {
-    "fromPath": "/docs/faq-internals",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/faq-internals.html"
-  },
-  {
-    "fromPath": "/docs/faq-internals/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/faq-internals.html"
-  },
-  {
-    "fromPath": "/docs/fragments",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/fragments.html"
-  },
-  {
-    "fromPath": "/docs/fragments/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/fragments.html"
+    "toPath": "/docs/faq-build.html"
   },
   {
     "fromPath": "/docs/faq-structure",
@@ -624,6 +540,42 @@
     "toPath": "/docs/faq-structure.html"
   },
   {
+    "fromPath": "/docs/faq-versioning",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/faq-versioning.html"
+  },
+  {
+    "fromPath": "/docs/faq-versioning/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/faq-versioning.html"
+  },
+  {
+    "fromPath": "/docs/faq-styling",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/faq-styling.html"
+  },
+  {
+    "fromPath": "/docs/faq-styling/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/faq-styling.html"
+  },
+  {
+    "fromPath": "/docs/fragments",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/fragments.html"
+  },
+  {
+    "fromPath": "/docs/fragments/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/fragments.html"
+  },
+  {
     "fromPath": "/docs/forwarding-refs",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -634,6 +586,18 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/forwarding-refs.html"
+  },
+  {
+    "fromPath": "/docs/hello-world",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/hello-world.html"
+  },
+  {
+    "fromPath": "/docs/hello-world/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/hello-world.html"
   },
   {
     "fromPath": "/docs/handling-events",
@@ -652,18 +616,6 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/handling-events.html"
-  },
-  {
-    "fromPath": "/docs/hello-world",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/hello-world.html"
-  },
-  {
-    "fromPath": "/docs/hello-world/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/hello-world.html"
   },
   {
     "fromPath": "/docs/hooks-rules",
@@ -690,18 +642,6 @@
     "toPath": "/docs/catalog-sync.html"
   },
   {
-    "fromPath": "/docs/courier-details",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/courier-details.html"
-  },
-  {
-    "fromPath": "/docs/courier-details/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/courier-details.html"
-  },
-  {
     "fromPath": "/docs/label-fetching",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -712,30 +652,6 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/label-fetching.html"
-  },
-  {
-    "fromPath": "/docs/label-generation",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/label-generation.html"
-  },
-  {
-    "fromPath": "/docs/label-generation/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/label-generation.html"
-  },
-  {
-    "fromPath": "/docs/inventory-update",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/inventory-update.html"
-  },
-  {
-    "fromPath": "/docs/inventory-update/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/inventory-update.html"
   },
   {
     "fromPath": "/docs/manifest-generation",
@@ -750,16 +666,40 @@
     "toPath": "/docs/manifest-generation.html"
   },
   {
-    "fromPath": "/docs/order-cancel",
+    "fromPath": "/docs/courier-details",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/order-cancel.html"
+    "toPath": "/docs/courier-details.html"
   },
   {
-    "fromPath": "/docs/order-cancel/",
+    "fromPath": "/docs/courier-details/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/order-cancel.html"
+    "toPath": "/docs/courier-details.html"
+  },
+  {
+    "fromPath": "/docs/inventory-update",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/inventory-update.html"
+  },
+  {
+    "fromPath": "/docs/inventory-update/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/inventory-update.html"
+  },
+  {
+    "fromPath": "/docs/label-generation",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/label-generation.html"
+  },
+  {
+    "fromPath": "/docs/label-generation/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/label-generation.html"
   },
   {
     "fromPath": "/docs/invoice-fetching",
@@ -774,18 +714,6 @@
     "toPath": "/docs/invoice-fetching.html"
   },
   {
-    "fromPath": "/docs/order-dispatch",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/order-dispatch.html"
-  },
-  {
-    "fromPath": "/docs/order-dispatch/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/order-dispatch.html"
-  },
-  {
     "fromPath": "/docs/order-pendency",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -798,16 +726,28 @@
     "toPath": "/docs/order-pendency.html"
   },
   {
-    "fromPath": "/docs/order-status-sync",
+    "fromPath": "/docs/order-dispatch",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/order-status-sync.html"
+    "toPath": "/docs/order-dispatch.html"
   },
   {
-    "fromPath": "/docs/order-status-sync/",
+    "fromPath": "/docs/order-dispatch/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/order-status-sync.html"
+    "toPath": "/docs/order-dispatch.html"
+  },
+  {
+    "fromPath": "/docs/order-cancel",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/order-cancel.html"
+  },
+  {
+    "fromPath": "/docs/order-cancel/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/order-cancel.html"
   },
   {
     "fromPath": "/docs/user-authentication",
@@ -834,16 +774,16 @@
     "toPath": "/docs/introducing-jsx.html"
   },
   {
-    "fromPath": "/docs/orders-sync",
+    "fromPath": "/docs/order-status-sync",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/orders-sync.html"
+    "toPath": "/docs/order-status-sync.html"
   },
   {
-    "fromPath": "/docs/orders-sync/",
+    "fromPath": "/docs/order-status-sync/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/orders-sync.html"
+    "toPath": "/docs/order-status-sync.html"
   },
   {
     "fromPath": "/docs/legacy-context",
@@ -858,16 +798,16 @@
     "toPath": "/docs/legacy-context.html"
   },
   {
-    "fromPath": "/docs/portals",
+    "fromPath": "/docs/orders-sync",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/portals.html"
+    "toPath": "/docs/orders-sync.html"
   },
   {
-    "fromPath": "/docs/portals/",
+    "fromPath": "/docs/orders-sync/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/portals.html"
+    "toPath": "/docs/orders-sync.html"
   },
   {
     "fromPath": "/docs/react-without-es6",
@@ -906,16 +846,16 @@
     "toPath": "/docs/events.html"
   },
   {
-    "fromPath": "/docs/pure-render-mixin-old",
+    "fromPath": "/docs/portals",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/pure-render-mixin-old.html"
+    "toPath": "/docs/portals.html"
   },
   {
-    "fromPath": "/docs/pure-render-mixin-old/",
+    "fromPath": "/docs/portals/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/pure-render-mixin-old.html"
+    "toPath": "/docs/portals.html"
   },
   {
     "fromPath": "/docs/javascript-environment-requirements",
@@ -930,6 +870,18 @@
     "toPath": "/docs/javascript-environment-requirements.html"
   },
   {
+    "fromPath": "/docs/profiler",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/profiler.html"
+  },
+  {
+    "fromPath": "/docs/profiler/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/profiler.html"
+  },
+  {
     "fromPath": "/docs/react-dom-server",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -942,16 +894,16 @@
     "toPath": "/docs/react-dom-server.html"
   },
   {
-    "fromPath": "/docs/profiler",
+    "fromPath": "/docs/pure-render-mixin-old",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/profiler.html"
+    "toPath": "/docs/pure-render-mixin-old.html"
   },
   {
-    "fromPath": "/docs/profiler/",
+    "fromPath": "/docs/pure-render-mixin-old/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/profiler.html"
+    "toPath": "/docs/pure-render-mixin-old.html"
   },
   {
     "fromPath": "/docs/react-dom",
@@ -1008,6 +960,24 @@
     "toPath": "/docs/testing-environments.html"
   },
   {
+    "fromPath": "/docs/testing",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/testing.html"
+  },
+  {
+    "fromPath": "/docs/testing/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/testing.html"
+  },
+  {
+    "fromPath": "/community/testing.html",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/testing.html"
+  },
+  {
     "fromPath": "/docs/uncontrolled-components",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -1018,24 +988,6 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/uncontrolled-components.html"
-  },
-  {
-    "fromPath": "/docs/web-components",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/web-components.html"
-  },
-  {
-    "fromPath": "/docs/web-components/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/web-components.html"
-  },
-  {
-    "fromPath": "/docs/webcomponents.html",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/web-components.html"
   },
   {
     "fromPath": "/docs/typechecking-with-proptypes",
@@ -1056,22 +1008,22 @@
     "toPath": "/docs/typechecking-with-proptypes.html"
   },
   {
-    "fromPath": "/docs/testing",
+    "fromPath": "/docs/web-components",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/testing.html"
+    "toPath": "/docs/web-components.html"
   },
   {
-    "fromPath": "/docs/testing/",
+    "fromPath": "/docs/web-components/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/testing.html"
+    "toPath": "/docs/web-components.html"
   },
   {
-    "fromPath": "/community/testing.html",
+    "fromPath": "/docs/webcomponents.html",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/testing.html"
+    "toPath": "/docs/web-components.html"
   },
   {
     "fromPath": "/community/articles",
@@ -1134,24 +1086,6 @@
     "toPath": "/community/external-resources.html"
   },
   {
-    "fromPath": "/community/support",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/community/support.html"
-  },
-  {
-    "fromPath": "/community/support/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/community/support.html"
-  },
-  {
-    "fromPath": "/support.html",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/community/support.html"
-  },
-  {
     "fromPath": "/community/podcasts",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -1162,18 +1096,6 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/community/podcasts.html"
-  },
-  {
-    "fromPath": "/community/team",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/community/team.html"
-  },
-  {
-    "fromPath": "/community/team/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/community/team.html"
   },
   {
     "fromPath": "/community/videos",
@@ -1192,6 +1114,36 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/community/videos.html"
+  },
+  {
+    "fromPath": "/community/support",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/community/support.html"
+  },
+  {
+    "fromPath": "/community/support/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/community/support.html"
+  },
+  {
+    "fromPath": "/support.html",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/community/support.html"
+  },
+  {
+    "fromPath": "/community/team",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/community/team.html"
+  },
+  {
+    "fromPath": "/community/team/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/community/team.html"
   },
   {
     "fromPath": "/docs/add-react-to-a-website",
@@ -1254,16 +1206,28 @@
     "toPath": "/docs/test-utils.html"
   },
   {
-    "fromPath": "/docs/code-splitting",
+    "fromPath": "/docs/getproducts",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/code-splitting.html"
+    "toPath": "/docs/getproducts.html"
   },
   {
-    "fromPath": "/docs/code-splitting/",
+    "fromPath": "/docs/getproducts/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/code-splitting.html"
+    "toPath": "/docs/getproducts.html"
+  },
+  {
+    "fromPath": "/docs/waybill-generation",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/waybill-generation.html"
+  },
+  {
+    "fromPath": "/docs/waybill-generation/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/waybill-generation.html"
   },
   {
     "fromPath": "/docs/codebase-overview",
@@ -1282,6 +1246,30 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/codebase-overview.html"
+  },
+  {
+    "fromPath": "/docs/code-splitting",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/code-splitting.html"
+  },
+  {
+    "fromPath": "/docs/code-splitting/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/code-splitting.html"
+  },
+  {
+    "fromPath": "/docs/concurrent-mode-intro",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/concurrent-mode-intro.html"
+  },
+  {
+    "fromPath": "/docs/concurrent-mode-intro/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/concurrent-mode-intro.html"
   },
   {
     "fromPath": "/docs/concurrent-mode-adoption",
@@ -1372,18 +1360,6 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/concurrent-mode-reference.html"
-  },
-  {
-    "fromPath": "/docs/concurrent-mode-intro",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/concurrent-mode-intro.html"
-  },
-  {
-    "fromPath": "/docs/concurrent-mode-intro/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/concurrent-mode-intro.html"
   },
   {
     "fromPath": "/docs/context",
@@ -1554,18 +1530,6 @@
     "toPath": "/docs/hooks-intro.html"
   },
   {
-    "fromPath": "/docs/hooks-state",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/hooks-state.html"
-  },
-  {
-    "fromPath": "/docs/hooks-state/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/hooks-state.html"
-  },
-  {
     "fromPath": "/docs/hooks-overview",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -1576,6 +1540,18 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/hooks-overview.html"
+  },
+  {
+    "fromPath": "/docs/hooks-state",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/hooks-state.html"
+  },
+  {
+    "fromPath": "/docs/hooks-state/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/hooks-state.html"
   },
   {
     "fromPath": "/docs/how-to-contribute",
@@ -1776,18 +1752,6 @@
     "toPath": "/docs/glossary.html"
   },
   {
-    "fromPath": "/docs/test-renderer",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/test-renderer.html"
-  },
-  {
-    "fromPath": "/docs/test-renderer/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/test-renderer.html"
-  },
-  {
     "fromPath": "/docs/react-api",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -1836,46 +1800,16 @@
     "toPath": "/docs/react-api.html"
   },
   {
-    "fromPath": "/docs/render-props",
+    "fromPath": "/docs/test-renderer",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/render-props.html"
+    "toPath": "/docs/test-renderer.html"
   },
   {
-    "fromPath": "/docs/render-props/",
+    "fromPath": "/docs/test-renderer/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/docs/render-props.html"
-  },
-  {
-    "fromPath": "/docs/state-and-lifecycle",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/state-and-lifecycle.html"
-  },
-  {
-    "fromPath": "/docs/state-and-lifecycle/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/state-and-lifecycle.html"
-  },
-  {
-    "fromPath": "/docs/interactivity-and-dynamic-uis.html",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/state-and-lifecycle.html"
-  },
-  {
-    "fromPath": "/docs/static-type-checking",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/static-type-checking.html"
-  },
-  {
-    "fromPath": "/docs/static-type-checking/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/docs/static-type-checking.html"
+    "toPath": "/docs/test-renderer.html"
   },
   {
     "fromPath": "/docs/refs-and-the-dom",
@@ -1924,6 +1858,48 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/refs-and-the-dom.html"
+  },
+  {
+    "fromPath": "/docs/render-props",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/render-props.html"
+  },
+  {
+    "fromPath": "/docs/render-props/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/render-props.html"
+  },
+  {
+    "fromPath": "/docs/state-and-lifecycle",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/state-and-lifecycle.html"
+  },
+  {
+    "fromPath": "/docs/state-and-lifecycle/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/state-and-lifecycle.html"
+  },
+  {
+    "fromPath": "/docs/interactivity-and-dynamic-uis.html",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/state-and-lifecycle.html"
+  },
+  {
+    "fromPath": "/docs/static-type-checking",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/static-type-checking.html"
+  },
+  {
+    "fromPath": "/docs/static-type-checking/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/static-type-checking.html"
   },
   {
     "fromPath": "/docs/strict-mode",
@@ -1978,6 +1954,12 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/blog/2014/10/14/introducing-react-elements.html"
+  },
+  {
+    "fromPath": "/blog/2020/03/02/react-v16.13.0.html",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/blog/2020/02/26/react-v16.13.0.html"
   },
   {
     "fromPath": "/docs/accessibility",
@@ -2094,12 +2076,6 @@
     "toPath": "/community/conferences.html"
   },
   {
-    "fromPath": "/blog/2020/03/02/react-v16.13.0.html",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/blog/2020/02/26/react-v16.13.0.html"
-  },
-  {
     "fromPath": "/docs/concurrent-mode-suspense",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -2182,6 +2158,30 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/react-component.html"
+  },
+  {
+    "fromPath": "/docs/getorders-sync",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/getorders-sync.html"
+  },
+  {
+    "fromPath": "/docs/getorders-sync/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/getorders-sync.html"
+  },
+  {
+    "fromPath": "/docs/getorders",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/getorders.html"
+  },
+  {
+    "fromPath": "/docs/getorders/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/getorders.html"
   },
   {
     "fromPath": "/docs/implementation-notes",
