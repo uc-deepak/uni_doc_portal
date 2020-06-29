@@ -21,7 +21,7 @@ export default class HTML extends React.Component {
           <link rel="icon" href="/uni_favicon.ico" /> {/* customkey: favicon */}
 
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          <link rel="apple-touch-icon" href="/logo-180x180.png" />
+          <link rel="icon" href="/uni_favicon.ico" /> {/* customkey: favicon */}
           <meta name="apple-mobile-web-app-title" content="React" />
 
           {this.props.headComponents}

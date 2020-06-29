@@ -66,8 +66,9 @@ class DocSearch extends Component<{}, State> {
             width: '100%',
             appearance: 'none',
             /* background: 'transparent', */
-            background: 'transparent',
+            // background: 'transparent',
             /* backgroundColor: colors.white, */
+            backgroundColor: colors.uni_header_mediumgrey, /* customkey: search box normal color */
             border: 0,
             color: colors.white, /* customkey: search box typed text color */
             fontSize: 18,
@@ -83,7 +84,7 @@ class DocSearch extends Component<{}, State> {
 
             ':focus': {
               outline: 0,
-              backgroundColor: colors.lighter,
+              backgroundColor: colors.uni_search_grey,
               borderRadius: '0.25rem',
               
             },

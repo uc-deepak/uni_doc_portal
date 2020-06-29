@@ -5,17 +5,23 @@ permalink: docs/waybill-generation.html
 ---
 
 
-This API is used to get AWB (waybill) for a shipment from the shipping provider/aggregator. The seller using below method sends the shipping package details (which includes sender and receiver details) to get the AWB (waybill) number and shipping label (.pdf format).
+This API is used to get AWB (waybill) for the shipment (shippingPackage) from the shipping provider/aggregator. The shipment details will be sent along with seller and customer details in this HTTP POST request for AWB number creation. The waybill generation will be for both the package delivery to the customer and pickup package from customer for delivery to the seller. The expected response is supposed to provide waybill number along with the shippingLabel link for the PDF file of shippingLabel.
+
 
 >Tip
 >
-> - The below method is applicable for:
->   -	Forward Delivery - Package delivery to the customer.
->   -	Reverse Delivery - Package pick-up from the customer.
+> - It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 >
-> - It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+> - In Case of Forward Delivery (delivering to the customer)
+>   - pickupAddressId 		:  Seller Address Id, Optional
+>   - deliveryAddressDetails 	:  Customer Address Details
+>   - returnShipmentFlag 	:  false
 >
-> - In case there are no product variants, pass the product information in variant parameters also.
+> - In Case of Reverse Delivery (pickup from customer to the seller)
+>   - pickupAddressDetails 	: Customer Address Details
+>   - deliveryAddressId 		: Seller Address Id
+>   - returnShipmentFlag 	: true 
+
 
 ## Basic Information
 
@@ -23,8 +29,8 @@ This API is used to get AWB (waybill) for a shipment from the shipping provider/
 | :----------------| :---------------------------------------------------------------------  | 
 | End Point        | /waybill                                                               | 
 | Request Type     | POST                                                                     | 
-| Header           | 'Accept: application/json'                                               |
-
+| Header (content-type)          | 'Accept: application/json'                                               |
+| Header (authorization)          | token (got from user verification or hardcoded value)                                               |
 
 ## Request Payload
 
@@ -85,50 +91,51 @@ This API is used to get AWB (waybill) for a shipment from the shipping provider/
 ## Request Parameters
 
 | LEVEL       | PARAMETER            | TYPE   | DESCRIPTION                                                                     | MANDATORY | NOTES                                                                 |
-|:-------------|:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------|
-| 1     | serviceType            | string  | Mode of shipment delivery (air, road)      | No        | -                                                             | 
-| 2     | handOverMode           | string  | -                                          | No        | Allowable: [Drop, Pickup]                                     | 
-| 3     | returnShipmentFlag     | boolean | High for reverse delivery                  | -         | Allowable: false (Forward Delivery), true (Reverse Delivery)  | 
-| 4     | Shipment               | list    | -                                          | -         | -                                                             | 
-| 4.1   | code                   | string  | -                                          | -         | -                                                             | 
-| 4.2   | orderCode              | string  | -                                          | -         | -                                                             | 
-| 4.3   | orderDate              | date    | Date of order                              | -         |                                | 
-| 4.4   | fullFilllmentTat       | date    |                                            | -         | -                                                             | 
-| 4.5   | weight                 | number  | Unit: gm                                   | -         | Min.: 1                                                 | 
-| 4.6   | length                 | number  | Unit: mm                                   | -         | Min.: 1                                                 | 
-| 4.7   | height                 | number  | Unit: mm                                   | -         | Min.: 1                                                 | 
-| 4.8   | breadth                | number  | Unit: mm                                   | -         | Min.: 1                                                 | 
-| 4.9   | items                  | array   | Details of contents in shipment            | -         | -                                                             | 
-| 4.9.1 | name                   | string  |                                            | -         | -                                                             | 
-| 4.9.2 | description            | string  |                                            | -         | -                                                             | 
-| 4.9.3 | quantity               | number  | Item quantity                              | -         | -                                                             | 
-| 5     | deliveryAddressId      | string  | Seller address ID                          | -         | Applicability: Reverse Delivery                               | 
-| 6     | deliveryAddressDetails | list    | Customer address details                   | -         | Applicability: Forward Delivery                               | 
-| 6.1   | name                   | string  | Receiver Name                              | -         | -                                                             | 
-| 6.2   | email                  | string  | Receiver Email                             | -         | -                                                             | 
-| 6.3   | phone                  | string  | Receiver Phone                             | -         | -                                                             | 
-| 6.4   | address1               | string  | Receiver Address                           | -         | -                                                             | 
-| 6.5   | address2               | string  | Receiver Address                           | -         | -                                                             | 
-| 6.6   | pincode                | string  | Receiver Pincode                           | -         | -                                                             | 
-| 6.7   | city                   | string  | Receiver City                              | -         | -                                                             | 
-| 6.8   | state                  | string  | Receiver State                             | -         | -                                                             | 
-| 6.9   | country                | string  | Receiver Country                           | -         | -                                                             | 
-| 7     | pickupAddressId        | string  | Seller address ID                          | No        | Applicability: Forward Delivery                               | 
-| 8     | pickupAddressDetails   | list    | Customer address details                   | -         | Applicability: Reverse Delivery                               | 
-| 8.1   | name                   | string  | Sender Name                                | -         | -                                                             | 
-| 8.2   | email                  | string  | Sender Email                               | -         | -                                                             | 
-| 8.3   | phone                  | string  | Sender Phone                               | -         | -                                                             | 
-| 8.4   | address1               | string  | Sender Address                             | -         | -                                                             | 
-| 8.5   | address2               | string  | Sender Address                             | -         | -                                                             | 
-| 8.6   | pincode                | string  | Sender Pincode                             | -         | -                                                             | 
-| 8.7   | city                   | string  | Sender City                                | -         | -                                                             | 
-| 8.8   | state                  | string  | Sender State                               | -         | -                                                             | 
-| 8.9   | country                | string  | Sender Country                             | -         | -                                                             | 
-| 9     | currencyCode           | string  | Three letter currency code                 | -         | -                                                             | 
-| 10    | paymentMode            | string  | Mode of payment                            | -         | Allowable: [COD, PREPAID]                                     | 
-| 11    | totalAmount            | number  | -                                          | -         | -                                                             | 
-| 12    | collectableAmount      | number  | Amount to be collected at time of delivery | -         | 0 for Prepaid mode                                            | 
-| 13    | courierName            | string  | -                                          | -         | Filled only if shipping provider assign self service provider | 
+|:-------------|:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------| 
+| 1     | serviceType            | string  | Mode of shipment delivery (air, road)                    | Opt.       | -                                                                                                         | 
+| 2     | handOverMode           | string  | -                                                        | Opt.       | Allowable: Drop, Pickup                                                                                   | 
+| 3     | returnShipmentFlag     | boolean | High for reverse delivery                                | Yes        | Allowable: false (Forward Delivery), true (Reverse Delivery)                                              | 
+| 4     | Shipment               | list    | List of items in a shipment                              | Yes        | -                                                                                                         | 
+| 4.1   | code                   | string  | Shipment code/reference no.                              | Yes        | -                                                                                                         | 
+| 4.2   | orderCode              | string  | Sale order code                                          | Yes        | -                                                                                                         | 
+| 4.3   | orderDate              | date    | Date of order                                            | Yes        | -                                                                                                         | 
+| 4.4   | fullFilllmentTat       | date    | Turnaround time for delivery                             | Yes        | -                                                                                                         | 
+| 4.5   | weight                 | integer | Unit: gm                                                 | Yes        | Min.: 1                                                                                                   | 
+| 4.6   | length                 | integer | Unit: mm                                                 | Yes        | Min.: 1                                                                                                   | 
+| 4.7   | height                 | integer | Unit: mm                                                 | Yes        | Min.: 1                                                                                                   | 
+| 4.8   | breadth                | integer | Unit: mm                                                 | Yes        | Min.: 1                                                                                                   | 
+| 4.9   | items                  | array   | Details of items in shipment                             | Yes        | -                                                                                                         | 
+| 4.9.1 | name                   | string  | Item name                                                | Yes        | -                                                                                                         | 
+| 4.9.2 | description            | string  | Item description                                         | Yes        | -                                                                                                         | 
+| 4.9.3 | quantity               | integer | Item quantity                                            | Yes        | -                                                                                                         | 
+| 5     | deliveryAddressId      | string  | Seller address ID                                        | Opt.       | Forward: Customer address ID, Reverse: seller address ID                                                  | 
+| 6     | deliveryAddressDetails | list    | Customer address details                                 | Yes        | Forward: Customer address details, Reverse: seller address details                                        | 
+| 6.1   | name                   | string  | Receiver Name                                            | Yes        | -                                                                                                         | 
+| 6.2   | email                  | string  | Receiver Email                                           | Opt.       | -                                                                                                         | 
+| 6.3   | phone                  | string  | Receiver Phone                                           | Yes        | -                                                                                                         | 
+| 6.4   | address1               | string  | Receiver Address                                         | Yes        | -                                                                                                         | 
+| 6.5   | address2               | string  | Receiver Address                                         | Opt.       | -                                                                                                         | 
+| 6.6   | pincode                | string  | Receiver Pin code                                        | Yes        | -                                                                                                         | 
+| 6.7   | city                   | string  | Receiver City                                            | Yes        | -                                                                                                         | 
+| 6.8   | state                  | string  | Receiver State                                           | Yes        | -                                                                                                         | 
+| 6.9   | country                | string  | Receiver Country                                         | Yes        | -                                                                                                         | 
+| 7     | pickupAddressId        | string  | Seller address ID                                        | Opt.       | Forward: Seller address ID, Reverse: customer address ID                                                  | 
+| 8     | pickupAddressDetails   | list    | Customer address details                                 | Yes        | Forward: Seller address details, Reverse: customer address details                                        | 
+| 8.1   | name                   | string  | Sender Name                                              | Yes        | -                                                                                                         | 
+| 8.2   | email                  | string  | Sender Email                                             | Opt.       | -                                                                                                         | 
+| 8.3   | phone                  | string  | Sender Phone                                             | Yes        | -                                                                                                         | 
+| 8.4   | address1               | string  | Sender Address                                           | Yes        | -                                                                                                         | 
+| 8.5   | address2               | string  | Sender Address                                           | Opt.       | -                                                                                                         | 
+| 8.6   | pincode                | string  | Sender Pincode                                           | Yes        | -                                                                                                         | 
+| 8.7   | city                   | string  | Sender City                                              | Yes        | -                                                                                                         | 
+| 8.8   | state                  | string  | Sender State                                             | Yes        | -                                                                                                         | 
+| 8.9   | country                | string  | Sender Country                                           | Yes        | -                                                                                                         | 
+| 9     | currencyCode           | string  | Three letter currency code                               | Yes        | [Currency Codes](/docs/currency-codes.html)                                                               | 
+| 10    | paymentMode            | string  | Mode of payment                                          | Yes        | Allowable: COD, PREPAID                                                                                   | 
+| 11    | totalAmount            | integer | -                                                        | Yes        | -                                                                                                         | 
+| 12    | collectableAmount      | integer | Amount to be collected at time of delivery               | Yes        | 0.00 for Prepaid mode                                                                                     | 
+| 13    | courierName            | string  | Name of actual courier agency allocated to the shipment. | Opt.       | Filled only in case shipping provider assigns self-service. Generally mandatory for shipping aggregators. | 
+ 
 
 
 ## Response Payload
@@ -144,8 +151,9 @@ This API is used to get AWB (waybill) for a shipment from the shipping provider/
 
 ## Response Parameters
 
-| PARAMETER            | TYPE   | DESCRIPTION                                                                     | MANDATORY | NOTES                                                                 |
-|:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------| 
-| waybill       | String | Shipment tracking number   | -         | -                                                | 
-| shippingLabel | String | Path of the shipping label | No        | If shipping provider provides own shipping label | 
-| courierName   | String | Name of shipping provider  | -         | -                                                | 
+| PARAMETER     | TYPE   | DESCRIPTION                | NOTES                                            | 
+|:--------------|:--------:|:----------------------------|:--------------------------------------------------| 
+| waybill       | string | Shipment tracking number   | -                                                | 
+| shippingLabel | string | Path of the shipping label | If shipping provider provides own shipping label | 
+| courierName   | string | Name of shipping provider  | -                                                | 
+ 

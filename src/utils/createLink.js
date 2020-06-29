@@ -99,10 +99,11 @@ const activeLinkCss = {
   fontWeight: 700,
 };
 
+
 const activeLinkBefore = {
   width: 4,
   height: 25,
-  borderLeft: `4px solid ${colors.brand}`,
+  borderLeft: `4px solid ${colors.uni_header_blue}`, /* customkey: side navigation active color */
   paddingLeft: 16,
   position: 'absolute',
   left: 0,

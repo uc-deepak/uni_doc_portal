@@ -26,15 +26,15 @@ const style = {
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
-  color: colors.white, /* customkey: to change color of docs and tutorial header nav items */
+  color: colors.white, /* customkey: header text (before search) to change color of docs and tutorial header nav items */
   transition: 'color 0.2s ease-out',
   paddingLeft: 15,
   paddingRight: 15,
-  fontWeight: 600, /* customkey: to change text size of docs and tutorial header nav items */
+  fontWeight: 600, /* customkey: header text (before search) to change text size of docs and tutorial header nav items */
 
   ':focus': {
     outline: 0,
-    backgroundColor: colors.uni_blue, /* customkey: to change highlight color of docs and tutorial header nav items */
+    backgroundColor: colors.uni_header_black, /* customkey: header text highlight (before search) to change highlight color of docs and tutorial header nav items */
     color: colors.white,
   },
 
@@ -55,13 +55,13 @@ const style = {
 
     ':hover:not(:focus)': {
       /* color: colors.brand, */
-      color: colors.uni_black, /* customkey: hover color */
+      color: colors.uni_header_blue, /* customkey: header heading hover color */
     },
   },
 };
 
 const activeStyle = {
-  color: colors.brand,
+  color: colors.uni_header_blue,  /* customkey: header heading selection or active color */
 
   [media.greaterThan('small')]: {
     position: 'relative',
@@ -73,7 +73,7 @@ const activeAfterStyle = {
     position: 'absolute',
     bottom: -1,
     height: 4,
-    background: colors.brand,
+    background: colors.uni_header_blue, /* customkey: header heading selection or active underline color */
     left: 0,
     right: 0,
     zIndex: 1,

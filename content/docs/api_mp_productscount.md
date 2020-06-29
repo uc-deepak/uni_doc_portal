@@ -4,11 +4,10 @@ title: Products Count Fetching
 permalink: docs/getproductscount.html
 ---
 
-The products are fetched by Unicommerce from the partner portal/marketplace regularly using the below method. The following section details the structure for various product related transactions. The partner is expected to refer the schema and comply to it for seamless data flow.
 
 >Tip
 >
->It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+>It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 
 
 ## Basic Information
@@ -18,7 +17,7 @@ The products are fetched by Unicommerce from the partner portal/marketplace regu
 | End Point        | /productsCount                                                          | 
 | Request Type     | GET                                                                     | 
 | Header           | 'Accept: application/json'                                               | 
-| Sample URL       | http://{datacenter}.unicommerce.com/productsCount?publishedStatus=PUBLISHED  |
+| Sample URL       | `http://{tenant}.unicommerce.com/productsCount?publishedStatus=PUBLISHED`  |
 
 
 ## Query Parameters

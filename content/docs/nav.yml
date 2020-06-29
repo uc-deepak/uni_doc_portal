@@ -26,48 +26,65 @@
 #       title: Custom Label Fetching
 #     - id: courier-details
 #       title: Courier Details Fetching
+
     
-- title: Marketplace Integration
+- title: Getting Started
   items: 
     - id: notes-for-reader
       title: Notes for the Reader
+    - id: abbreviations
+      title: Abbreviations
+    - id: country-codes
+      title: Country Codes
+    - id: state-codes
+      title: State Codes
+    - id: currency-codes
+      title: Currency Codes
+
+- title: Marketplace Integration
+  items:
     - id: authentication
       title: Authentication
-    - id: getproducts
-      title: Products Fetching
     - id: getproductscount
       title: Products Count Fetching
+    - id: getproducts
+      title: Products Fetching 
+    - id: order-onhold
+      title: Order Pendency (On-hold)
     - id: getorders
       title: Order Fetching
     - id: getorders-sync
       title: Order Status Sync
-    - id: order-onhold
-      title: Order Pendency (On-hold)
     - id: order-acceptance
       title: Order Acceptance (by seller)
-    - id: post-orders-cancel
-      title: Order Update - Cancel
-    - id: post-orders-dispatch
-      title: Order Update - Dispatch
     - id: updateinventory
       title: Inventory Updating
     - id: getinvoicedetails
       title: Invoice Details Fetching
-    - id: fetchmanifest
-      title: Custom Manifest (by Partner)
+    - id: getcourierdetails
+      title: Courier Details Fetching
     - id: postlabels
       title: Custom Label Generation
     - id: getlabels
       title: Custom Label Fetching
-    - id: postcourierdetails
-      title: Courier Details Fetching
-    - id: error-codes
-      title: Error Codes
+    - id: fetchmanifest
+      title: Custom Manifest (by Partner)
+    - id: post-orders-dispatch
+      title: Order Update - Dispatch
+    - id: post-orders-cancel
+      title: Order Update - Cancel
+    
+    
+    
+    
+    
+
+
+      
+
 
 - title: Shipping Provider Integration
-  items: 
-    - id: notes-for-reader
-      title: Notes for the Reader
+  items:
     - id: sp-authentication
       title: Shipping Provider Authentication
     - id: waybill-generation
@@ -76,7 +93,64 @@
       title: Shipment Status
     - id: generate-manifest
       title: Generate Manifest
-    - id: error-codes
-      title: Error Codes
-    - id: sp-faq
-      title: FAQ - Shipping Provider
+
+- title: OMS Integration
+  items:
+    - id: oauth
+      title: Get Fresh Access Token
+    - id: oauth-refreshtoken
+      title: Renew Access Token
+    - id: saleorder-create
+      title: Create Sale Order
+    - id: saleorder-search
+      title: Search Sale Order
+    - id: saleorder-cancel
+      title: Cancel Sale Order 
+    - id: shippingmanifest-create
+      title: Create Shipping Manifest
+    - id: shippingmanifest-close
+      title: Close Shipping Manifest
+    - id: shippingmanifest-addshippingpackage
+      title: Add Shipping Package to Manifest
+    - id: shippingpackage-create
+      title: Create Shipping Package
+    - id: getshippingpackages
+      title: Get Shipping Packages
+    - id: getshippingpackagedetails
+      title: Get Shipping Package Details
+    - id: allocateshippingprovider
+      title: Allocate Shipping Provider
+    - id: shippingpackage-dispatch
+      title: Dispatch Shipping Package
+    - id: shippingpackage-createinvoice
+      title: Create Shipping Package Invoice
+    - id: shippingpackage-getinvoicelabel
+      title: Get Invoice Label
+    - id: create-reversepickup
+      title: Create Reverse Pick-up
+    - id: createinvoice-with-details
+      title: Create Invoice with Details
+    - id: createinvoice-by-saleordercode
+      title: Create Invoice by Sale Order Code
+    - id: adjust-inventory
+      title: Adjust Inventory
+    - id: adjust-inventory-bulk
+      title: Adjust Inventory - Bulk
+    - id: inventory-snapshot
+      title: Get Inventory Snapshot
+    - id: createoredit-itemtype
+      title: Create or Edit Item Type
+    - id: search-itemtype
+      title: Search Item Type
+  
+- title: Response Codes
+  items: 
+    - id: response-codes
+      title: Response Codes
+
+- title: FAQ
+  items: 
+    - id: faq-sp
+      title: Shipping Provider
+
+

@@ -8,7 +8,7 @@ In cases where seller acceptance to fulfilling each received order is desirable.
 
 >Tip
 >
->It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+> - It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 
 ## Basic Information
 
@@ -26,6 +26,7 @@ In cases where seller acceptance to fulfilling each received order is desirable.
 }
 ```
 
+
 ## Response Payload
 
 ```js
@@ -34,8 +35,4 @@ In cases where seller acceptance to fulfilling each received order is desirable.
 }
 ```
 
-## Response Parameters
-
-|PARAMETERS     		    |TYPE      	 		    |DESCRIPTION			|MANDATORY	|NOTES	
-|:----------------------|:-----------------:|:---------------|:---------:|:--------|
-|status   				      |string				      |Status of the request			|-		    |   Allowable: SUCCESS, FAILED, PARTIAL_SUCCESS |      
+      

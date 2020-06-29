@@ -9,7 +9,7 @@ On cancellation of order by seller, the updated order status is posted on the ma
 
 >Tip
 >
->It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+>It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 
 ## Basic Information
 
@@ -65,10 +65,12 @@ On cancellation of order by seller, the updated order status is posted on the ma
 
 ## Response Parameters
 
-| LEVEL       | PARAMETER            | TYPE   | DESCRIPTION                                                                     | MANDATORY | NOTES                                                                 |
-|:-------------|:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------| 
-| 1     | Status       | string | Send Success after cancellation is acknowledged                  | Yes       | Allowable: SUCCESS, FAILED, PARTIAL_SUCCESS | 
-| 2     | orderItems   | -      | -                                                                | -         | -                                           | 
-| 2.1   | orderItemId  | string | Order ID of the orders failed to be marked cancel at your system | No        | -                                           | 
-| 2.2   | errorMessage | string | Reason of failure                                                | No        | -                                           |
+| LEVEL | PARAMETER    | TYPE   | DESCRIPTION                                                      | MANDATORY  | NOTES                                       | 
+|:------|:-------------|:------:|:-----------------------------------------------------------------|:----------:|:--------------------------------------------| 
+| 1     | Status       | string | Send Success after cancellation is acknowledged                  | Yes        | Allowable: SUCCESS, FAILED, PARTIAL_SUCCESS | 
+| 2     | orderItems   | list   | List of items in an order                                        | -          | -                                           | 
+| 2.1   | orderItemId  | string | Order ID of the orders failed to be marked cancel at your system | No         | -                                           | 
+| 2.2   | errorMessage | string | Reason of failure                                                | No         | -                                           | 
+ 
+
 

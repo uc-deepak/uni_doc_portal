@@ -54,7 +54,7 @@ const style = {
 };
 
 const primaryStyle = {
-  backgroundColor: colors.uni_blue,
+  backgroundColor: colors.uni_header_mediumgreen, /* customkey: homepage button api references styling */
   color: colors.white,
   padding: '10px 25px',
   whiteSpace: 'nowrap',
@@ -66,7 +66,7 @@ const primaryStyle = {
   },
 
   ':hover': {
-    backgroundColor: colors.uni_black,
+    backgroundColor: colors.uni_header_lightgreen,
   },
 };
 

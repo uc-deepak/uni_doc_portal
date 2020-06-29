@@ -9,7 +9,7 @@ This HTTP API details the method in which the channel manifest data is communica
 
 >Tip
 >
->It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+>It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 
 
 ## Basic Information

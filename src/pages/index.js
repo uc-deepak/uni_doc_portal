@@ -17,7 +17,7 @@ import {colors, media, sharedStyles} from 'theme';
 import loadScript from 'utils/loadScript';
 import createCanonicalUrl from 'utils/createCanonicalUrl';
 import {babelURL} from 'site-constants';
-import logoWhiteSvg from 'images/pattern.jpg';
+import logoWhiteSvg from 'images/uni_homepage.png';
 
 class Home extends Component {
   state = {
@@ -65,13 +65,15 @@ class Home extends Component {
               css={{
                 paddingTop: 45,
                 paddingBottom: 10,
+                
 
                 [media.greaterThan('small')]: {
                   paddingTop: 60,
                   paddingBottom: 70,
                 },
 
-                /* [media.greaterThan('xlarge')]: {
+
+                [media.greaterThan('xlarge')]: {
                   paddingTop: 95,
                   paddingBottom: 85,
                   maxWidth: 1500, // Positioning of background logo
@@ -87,24 +89,26 @@ class Home extends Component {
                     right: 0,
                     backgroundImage: `url(${logoWhiteSvg})`,
                     backgroundRepeat: 'no-repeat',
-                    backgroundPosition: '100% 100px',
-                    backgroundSize: '100% auto',
-                    opacity: 0.5,
+                    backgroundPosition: '90% 100px',
+                    backgroundSize: '40% auto',
+                    opacity: 0.9,
                   },
-                }, */
+                },
               }}>
               <div
                 css={{
                   // Content should be above absolutely-positioned hero image
                   position: 'relative',
+                  
                 }}>
                 <Container>
                   <h1
                     css={{
-                      color: colors.uni_blue,  /* customkey: homepage text 1 color */
-                      textAlign: 'center', /* customkey: homepage text 1 */
+                      color: colors.uni_black,  /* customkey: homepage text 1 color */
+                      paddingTop: 70,
+                      textAlign: 'left', /* customkey: homepage text 1 */
                       margin: 0,
-                      fontSize: 45,
+                      fontSize: 35,
                       letterSpacing: '0.01em',
                       [media.size('xsmall')]: {
                         fontSize: 30,
@@ -115,11 +119,12 @@ class Home extends Component {
                     }}>
                     Knowledge Base
                   </h1>
+                  
                   <p
                     css={{
                       color: colors.uni_black, /* customkey: homepage text 2 color */
                       paddingTop: 15,
-                      textAlign: 'center',
+                      textAlign: 'left',
                       fontSize: 24,
                       letterSpacing: '0.01em',
                       fontWeight: 200,
@@ -140,11 +145,11 @@ class Home extends Component {
                   </p>
                   <Flex
                     valign="center"
-                    halign="center"
+                    /* halign="center" */
                     css={{
                       paddingTop: 40,
                       flexWrap: 'wrap',
-                      justifyContent: 'center',
+                      justifyContent: 'left', /* customkey: homepage button alignment API references */
 
                       [media.greaterThan('xlarge')]: {
                         paddingTop: 65,
@@ -152,7 +157,7 @@ class Home extends Component {
                     }}>
                     <CtaItem>
                       <ButtonLink
-                        to="/docs/authentication.html"
+                        to="/docs/notes-for-reader.html"
                         type="primary">
                         API References
                       </ButtonLink>
@@ -170,8 +175,10 @@ class Home extends Component {
 
           <Container>
             <div css={sharedStyles.markdown}>
+
               <section
                 css={[
+                  
                   sectionStyles,
                   {
                     [media.lessThan('medium')]: {
@@ -181,15 +188,39 @@ class Home extends Component {
                       paddingTop: 30,
                       WebkitOverflowScrolling: 'touch',
                       position: 'relative',
-                      maskImage:
-                        'linear-gradient(to right, transparent, white 10px, white 90%, transparent)',
+                      
+                      
+                      
+                      // maskImage:
+                      //   'linear-gradient(to right, transparent, white 10px, white 90%, transparent)',
                     },
                   },
+                  
                 ]}>
                 <div
                   css={{
                     display: 'flex',
                     flexDirection: 'row',
+                    backgroundColor: colors.white, /* customkey: above footer ribbon color marketing content background color*/
+                    
+                    /* paddingTop: 95,
+                    paddingBottom: 85,
+                    maxWidth: 1500, // Positioning of background logo
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    position: 'relative',
+                    '::before': {
+                      content: ' ',
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      bottom: 0,
+                      right: 0,
+                      backgroundImage: `url(${logoWhiteSvg})`,
+                      backgroundRepeat: 'no-repeat',
+                      backgroundPosition: '100% 100px',
+                      backgroundSize: '100% auto',
+                      opacity: 0.5, */
 
                     [media.lessThan('medium')]: {
                       display: 'block',

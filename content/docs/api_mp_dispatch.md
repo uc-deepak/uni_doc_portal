@@ -8,7 +8,7 @@ On dispatch of order by seller, the updated order status is posted on the market
 
 >Tip
 >
->It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+>It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 
 
 ## Basic Information
@@ -84,11 +84,13 @@ On dispatch of order by seller, the updated order status is posted on the market
 
 ## Response Parameters
 
-| LEVEL       | PARAMETER            | TYPE   | DESCRIPTION                                                                     | MANDATORY | NOTES                                                                 |
-|:-------------|:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------|
-| 1     | status       | string | Status of the request                     | Yes       | Allowable: SUCCESS, FAILED, PARTIAL_SUCCESS | 
-| 2     | orderItems   | -      | Only if some dispatch doesn't get updated | -         | -                                           | 
-| 2.1   | orderItemId  | string | Item ID                                   | No        | -                                           | 
-| 2.2   | errorMessage | string | -                                         | No        | -                                           |
+| LEVEL | PARAMETER    | TYPE   | DESCRIPTION                               | MANDATORY  | NOTES                                       | 
+|:------|:-------------|:------:|:------------------------------------------|:----------:|:--------------------------------------------| 
+| 1     | status       | string | Status of the request                     | Yes        | Allowable: SUCCESS, FAILED, PARTIAL_SUCCESS | 
+| 2     | orderItems   | -      | Only if some dispatch doesn't get updated | -          | -                                           | 
+| 2.1   | orderItemId  | string | Item ID                                   | No         | -                                           | 
+| 2.2   | errorMessage | string | Reason of failure                         | No         | -                                           | 
+ 
+
 
 

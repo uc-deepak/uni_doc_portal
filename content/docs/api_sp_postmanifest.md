@@ -9,7 +9,7 @@ This API is used to generate the manifest for AWBs. This is intended for shippin
 
 >Tip
 >
-> - It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+> - It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 >
 > - In case there are no product variants, pass the product information in variant parameters also.
 

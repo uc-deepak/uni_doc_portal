@@ -1,6 +1,6 @@
 items:
-  - title: Docs
-    to: /docs/authentication.html
+  - title: Documents
+    to: /docs/notes-for-reader.html
     activeSelector: /docs/
   # - title: Tutorial
   #   to: /tutorial/tutorial.html

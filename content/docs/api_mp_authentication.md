@@ -13,7 +13,7 @@ The Unicommerce works on basic authentication, in which valid auth token is sent
 | End Point        | /authToken                                                              | 
 | Request Type     | GET                                                                     | 
 | Request Header   | 'Accept: application/json'                                               | 
-| Sample URL       | http://{datacentre}.unicommerce.com/authToken?username=abc&password=123 |
+| Sample URL       | `http://{tenant}.unicommerce.com/authToken?username=abc&password=123` |
 
 
 ## Query Parameters

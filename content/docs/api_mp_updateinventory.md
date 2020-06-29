@@ -6,7 +6,7 @@ permalink: docs/updateinventory.html
 
 >Tip
 >
->It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+>It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 
 
 ## Basic Information
@@ -63,12 +63,14 @@ Following is the schema defined for the product resource in Unicommerce system. 
 
 ## Response Parameters
 
-| LEVEL       | PARAMETER            | TYPE   | DESCRIPTION                                                                     | MANDATORY | NOTES                                                                 |
-|:-------------|:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------|
-| 1     | status            | string | Status of the request                                                        | Yes       | Allowable: SUCCESS, FAILED, PARTIAL_SUCCESS | 
-| 2     | failedProductList | -      | Required for bulk update, when inventory update for some products got failed | -         | -                                           | 
-| 2.1   | productId         | string | Product ID of the products whose inventory update fails                      | Yes       | Eg: 54353                                   | 
-| 2.2   | variantId         | string | Variant ID of the products whose inventory update fails                      | Yes       | Eg: 54353-2                                 | 
-| 2.3   | message           | string | Reason for failure                                                           | Yes       | Eg: Mismatch                                | 
+| LEVEL | PARAMETER         | TYPE   | DESCRIPTION                                                                  | MANDATORY  | NOTES                                       | 
+|:------|:------------------|:------:|:-----------------------------------------------------------------------------|:----------:|:--------------------------------------------| 
+| 1     | status            | string | Status of the request                                                        | Yes        | Allowable: SUCCESS, FAILED, PARTIAL_SUCCESS | 
+| 2     | failedProductList | list   | Required for bulk update, when inventory update for some products got failed | -          | -                                           | 
+| 2.1   | productId         | string | Product ID of the products whose inventory update fails                      | Yes        | Eg: 54353                                   | 
+| 2.2   | variantId         | string | Variant ID of the products whose inventory update fails                      | Yes        | Eg: 54353-2                                 | 
+| 2.3   | message           | string | Reason for failure                                                           | Yes        | Eg: Mismatch                                | 
+ 
+
 
 

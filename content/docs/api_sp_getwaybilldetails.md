@@ -9,7 +9,7 @@ This API is used by Uniware to get the shipment status (after dispatch) from shi
 
 >Tip
 >
-> - It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+> - It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 >
 > - In case there are no product variants, pass the product information in variant parameters also.
 
@@ -20,7 +20,7 @@ This API is used by Uniware to get the shipment status (after dispatch) from shi
 | End Point        | /waybillDetails                                                               | 
 | Request Type     | GET                                                                     | 
 | Header           | 'Accept: application/json'                                               | 
-| Sample URL       | http://{datacenter}.unicommerce.com/waybillDetails?waybill=(waybillString)
+| Sample URL       | `http://{tenant}.unicommerce.com/waybillDetails?waybill=(waybillString)`|
 
 
 
@@ -48,10 +48,12 @@ This API is used by Uniware to get the shipment status (after dispatch) from shi
 
 ## Response Parameters
 
-|PARAMETERS     		    |TYPE      	 		    |DESCRIPTION			|MANDATORY	|NOTES	
-|:----------------------|:-----------------:|:---------------|:---------:|:--------|
-| currentStatus | preset | Most recent shipment status | -         | Allowable: Pending, Delivered, Returning to origin | 
-| waybill       | string | Shipment tracking number    | -         | Max.: 45                                           | 
-| statusDate    | date   | Last status date            | -         | -                                                  | 
+| PARAMETER     | TYPE   | DESCRIPTION                 | NOTES    | 
+|:--------------|:------:|:----------------------------|:---------| 
+| currentStatus | string | Most recent shipment status | -        | 
+| waybill       | string | Shipment tracking number    | Max.: 45 | 
+| statusDate    | date   | Last status date            | -        | 
+
+ 
 
 

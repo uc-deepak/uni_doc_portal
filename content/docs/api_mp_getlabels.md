@@ -17,7 +17,7 @@ This HTTP API details the method in which the label in pdf format is received fr
 | End Point        | /orders/labels                                           | 
 | Request Type     | GET                                                     | 
 | Header           | 'Accept: application/json'                                | 
-| Sample URL       | http://{datacentre}.unicommerce.com/orders/labels?orderItemIds=abc |
+| Sample URL       | `http://{tenant}.unicommerce.com/orders/labels?orderItemIds=abc` |
 
     
 ## Query Parameters

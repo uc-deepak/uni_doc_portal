@@ -33,7 +33,17 @@ const colors = {
   uni_blue: '#00ACDE',
   uni_green: '#529633',
   uni_black: '#3D3D3D',
+  uni_header_lowgrey: '#f2f2f2',
+  uni_header_lightgrey: '#d8d8d8',
+  uni_header_mediumgrey: '#5a5a5a',
+  uni_header_lightgreen: '#88bf30',
+  uni_header_mediumgreen: '#71a51e',
+  uni_header_black: '#3d3d3d',
+  uni_header_blue: '#199eda',
+  uni_search_grey: '#757575',
+  
 };
+
 
 const SIZES = {
   xsmall: {min: 0, max: 599},
@@ -131,7 +141,6 @@ const sharedStyles = {
     container: {
       display: 'flex',
       minHeight: 'calc(100vh - 60px)',
-      flexDirection: 'row-reverse',
       [media.greaterThan('sidebarFixed')]: {
         maxWidth: 840,
         marginLeft: 'auto',
@@ -472,7 +481,7 @@ const sharedStyles = {
       borderSpacing: 0,
       marginBottom: '2rem',
       fontVariantNumeric: 'lining-nums tabular-nums',
-  
+
       '& th, td' : {
         borderStyle: 'solid',
         borderColor: '1px solid ${colors.divider}',

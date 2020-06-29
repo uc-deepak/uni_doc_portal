@@ -80,7 +80,7 @@ const MarkdownPage = ({
       <div css={{flex: '1 0 auto'}}>
         <Container>
           <div css={sharedStyles.articleLayout.container}>
-            <Flex css={{marginLeft:200}} type="article" direction="column" grow="1" halign="stretch">
+            <Flex type="article" direction="column" grow="1" halign="stretch">
               <MarkdownHeader title={titlePrefix} />
 
               {(date || hasAuthors) && (
@@ -108,7 +108,7 @@ const MarkdownPage = ({
                   dangerouslySetInnerHTML={{__html: markdownRemark.html}}
                 />
 
-                {markdownRemark.fields.path && (
+                {/* {markdownRemark.fields.path && (
                   <div css={{marginTop: 80}}>
                     <a
                       css={sharedStyles.articleLayout.editLink}
@@ -116,7 +116,7 @@ const MarkdownPage = ({
                       Edit this page
                     </a>
                   </div>
-                )}
+                )} */}
               </div>
             </Flex>
 

@@ -16,14 +16,15 @@ import DocSearch from './DocSearch';
 
 // $FlowFixMe
 import navHeader from '../../../content/headerNav.yml';
-import logoSvg from 'icons/uni_logo.svg'; /* customkey: header logo */
+import logoSvg from 'icons/uni_logo_whitetext.svg'; /* customkey: header logo */
+
 
 const Header = ({location}: {location: Location}) => (
   <header
     css={{
       
       // backgroundColor: colors.darker,
-      backgroundColor: colors.uni_blue, /* customkey: header color */
+      backgroundColor: colors.uni_header_black, /* customkey: header color */
       color: colors.darker, /* customkey: header text (after search) color */
       position: 'fixed',
       zIndex: 1,
@@ -70,7 +71,7 @@ const Header = ({location}: {location: Location}) => (
           }}
           to="/">
             {/* customkey: header logo resize */}
-          <img src={logoSvg} alt="" height="50" /> 
+          <img src={logoSvg} alt="" height="110" /> 
           <span
             css={{
               color: 'inherit',

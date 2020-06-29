@@ -8,7 +8,7 @@ In cases where the partner requires the seller to block the inventory for orders
 
 >Tip
 >
->It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **Terminologies** and **Abbreviations** used here.
+>It is recommended to check out [“Notes for the reader”](/docs/notes-for-reader.html). You might find this helpful as it contains **Guidelines**, **URL Details** and **Terminologies** used here.
 
 ## Basic Information
 
@@ -17,7 +17,7 @@ In cases where the partner requires the seller to block the inventory for orders
 | End Point                                         | /orders/pendency                       | 
 | Request Type                                      | GET                                                      | 
 | Header                                            | 'Accept: application/json'                                | 
-| Sample URL                                        | http://{datacentre}.unicommerce.com/orders/pendency?pageNumber=1&pageSize=20&orderDateFrom=2020-01-01&orderDateTo=2020-01-15 |
+| Sample URL                                        | `http://{tenant}.unicommerce.com/orders/pendency?pageNumber=1&pageSize=20&orderDateFrom=2020-01-01&orderDateTo=2020-01-15` |
 
 
 ## Query Parameters
@@ -60,19 +60,21 @@ In cases where the partner requires the seller to block the inventory for orders
 
 ## Response Parameters
 
-| LEVEL       | PARAMETER            | TYPE   | DESCRIPTION                                                                     | MANDATORY | NOTES                                                                 |
-|:-------------|:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------|
-| 1      | pendencies   | -       | -                                                                                                                    | -         | -                              | 
-| 1.1    | orderId      | string  | Order ID                                                                                                             | Yes       | -                              | 
-| 1.3    | orderStatus  | string  | Status of the order.                                                                                                 | Yes       | Fixed: PENDING_VERIFICATION    | 
-| 1.8    | orderItems   | list    | List of items in the order                                                                                           | Yes       | -                              | 
-| 1.8.1  | orderItemId  | string  | The ID of the item(s) present inside the order                                                                       | Yes       | -                              | 
-| 1.8.2  | productId    | string  | Product ID of the item                                                                                               | Yes       | -                              | 
-| 1.8.3  | variantId    | string  | Variant ID of the item                                                                                               | No        | -                              | 
-| 1.8.4  | sku          | string  | SKU code of the item on the marketplace                                                                              | Yes       | -                              | 
-| 1.8.5  | title        | string  | Title of the item                                                                                                    | No        | -                              | 
-| 1.8.6  | status       | string  | Generally same as `orderStatus`. Only is case of partial order fulfilment the status of item in the order will vary. | Yes       | Allowable: same as `orderStatus` | 
-| 1.8.7  | quantity     | integer | Quantity of the item ordered                                                                                         | Yes       | Default: 1                     | 
-| 1.8.8  | onHold       | boolean | true if order not available for processing                                                                           | No        | Default: false                 | 
-| 1.8.9  | packetNumber | integer | No. of parcels in which the order has to be processed                                                                | No        | Default: 0                     | 
-| 1.8.10 | hasMore      | boolean | -                                                                                                                    | -         | Default: true                  | 
+| LEVEL  | PARAMETER    | TYPE    | DESCRIPTION                                                                                                          | MANDATORY  | NOTES                          | 
+|:-------|:-------------|:-------:|:---------------------------------------------------------------------------------------------------------------------|:----------:|:-------------------------------| 
+| 1      | pendencies   | list    | List of order pendencies                                                                                             | -          | -                              | 
+| 1.1    | orderId      | string  | Order ID                                                                                                             | Yes        | -                              | 
+| 1.3    | orderStatus  | string  | Status of the order                                                                                                  | Yes        | Fixed: PENDING_VERIFICATION    | 
+| 1.8    | orderItems   | list    | List of items in the order                                                                                           | -          | -                              | 
+| 1.8.1  | orderItemId  | string  | The ID of the item(s) present inside the order                                                                       | Yes        | -                              | 
+| 1.8.2  | productId    | string  | Product ID of the item                                                                                               | Yes        | -                              | 
+| 1.8.3  | variantId    | string  | Variant ID of the item                                                                                               | Yes        | -                              | 
+| 1.8.4  | sku          | string  | SKU code of the item on the marketplace                                                                              | Yes        | -                              | 
+| 1.8.5  | title        | string  | Title of the item                                                                                                    | No         | -                              | 
+| 1.8.6  | status       | string  | Generally same as `orderStatus`. Only is case of partial order fulfilment the status of item in the order will vary. | Yes        | Allowable: same as orderStatus | 
+| 1.8.7  | quantity     | integer | Qty of the item ordered                                                                                              | Yes        | Default: 1                     | 
+| 1.8.8  | onHold       | boolean | true if order not available for processing                                                                           | No         | Default: false                 | 
+| 1.8.9  | packetNumber | integer | No. of parcels in which the order has to be processed                                                                | No         | Default: 0                     | 
+| 1.8.10 | hasMore      | boolean | -                                                                                                                    | No         | Default: true                  | 
+ 
+ 

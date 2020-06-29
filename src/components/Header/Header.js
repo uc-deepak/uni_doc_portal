@@ -13,8 +13,8 @@ import type {Node} from 'react';
 const Header = ({children}: {children: Node}) => (
   <h1
     css={{
-      // color: colors.dark,
-      color: colors.uni_green,
+      color: colors.dark,
+      // color: colors.uni_green,
       marginRight: '5%',
       ...fonts.header,
     }}>

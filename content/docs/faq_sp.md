@@ -1,7 +1,7 @@
 ---
-id: sp-faq
-title: FAQ - Shipping Provider
-permalink: docs/sp-faq.html
+id: faq-sp
+title: Shipping Provider
+permalink: docs/faq-sp.html
 ---
 
 ### Can we set the endpoint (custom URL format) for sending the request?

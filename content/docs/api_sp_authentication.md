@@ -5,7 +5,7 @@ permalink: docs/sp-authentication.html
 ---
 
 This API is used to get auth-token from the shipping provider/aggregator. The seller in this POST request needs to send valid username and password to get a valid token from shipping provider/aggregator.
-This token needs to be used in all API requests by the seller.
+This token needs to be used in all subsequent API requests by the seller.
 
 
 ## Basic Information
@@ -15,7 +15,7 @@ This token needs to be used in all API requests by the seller.
 | End Point        | /authToken                                                              | 
 | Request Type     | POST                                                                     | 
 | Request Header   | 'Accept: application/json'                                               | 
-| Sample URL       | http://{datacentre}.unicommerce.com/authToken?username=abc&password=123 |
+
 
 
 ## Query Parameters
@@ -32,7 +32,8 @@ The response is a valid auth. token which is unique for each seller.
 
 ## Response Parameters
 
-|PARAMETERS     		|TYPE      |DESCRIPTION	                              |MANDATORY    |NOTES                    |
-|:----------------------|:--------:|:-----------------------------------------|:-----------:|:------------------------|
-|status  				|string	   |Status of the request                     |Yes		    |Allowable: SUCCESS, INVALID_CREDENTIALS | 
-|accessToken	   		|string    |Authorization Token                       |Yes		    |Eg: as23djaexnsnJsnJSW34snapl |
+| PARAMETER | TYPE   | DESCRIPTION               | NOTES                                   | 
+|:----------|:------:|:--------------------------|:----------------------------------------| 
+| status    | string | Status of the API request | Allowable: SUCCESS, INVALID_CREDENTIALS | 
+| token     | string | Unique token              | Eg.: as23djaexnsnJsnJSW34snapl          | 
+
