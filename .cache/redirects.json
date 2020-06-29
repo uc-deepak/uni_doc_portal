@@ -42,6 +42,7 @@
     "toPath": "/docs/postcourierdetails.html"
   },
   {
+<<<<<<< HEAD
     "fromPath": "/docs/authentication",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -64,6 +65,30 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/sp-faq.html"
+=======
+    "fromPath": "/docs/sp-faq",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/sp-faq.html"
+  },
+  {
+    "fromPath": "/docs/sp-faq/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/sp-faq.html"
+  },
+  {
+    "fromPath": "/docs/authentication",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/authentication.html"
+  },
+  {
+    "fromPath": "/docs/authentication/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/authentication.html"
+>>>>>>> parent of ce7ffb52... navigation moved to left
   },
   {
     "fromPath": "/docs/post-orders-dispatch",
@@ -436,6 +461,21 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/docs/error-codes.html"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "fromPath": "/docs/notes-for-reader",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/notes-for-reader.html"
+  },
+  {
+    "fromPath": "/docs/notes-for-reader/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/docs/notes-for-reader.html"
+>>>>>>> parent of ce7ffb52... navigation moved to left
   },
   {
     "fromPath": "/docs/cdn-links",
@@ -1968,6 +2008,7 @@
     "toPath": "/blog/2014/10/14/introducing-react-elements.html"
   },
   {
+<<<<<<< HEAD
     "fromPath": "/docs/notes-for-reader",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -1980,6 +2021,8 @@
     "toPath": "/docs/notes-for-reader.html"
   },
   {
+=======
+>>>>>>> parent of ce7ffb52... navigation moved to left
     "fromPath": "/docs/accessibility",
     "isPermanent": false,
     "redirectInBrowser": true,

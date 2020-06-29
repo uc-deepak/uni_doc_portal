@@ -94,7 +94,7 @@ class StickyResponsiveSidebar extends Component<Props, State> {
               overflowY: 'auto',
               WebkitOverflowScrolling: 'touch',
               marginRight: -999,
-              paddingRight: 0,
+              paddingRight: 999,
               backgroundColor: '#f7f7f7',
               opacity: '1 !important',
             },

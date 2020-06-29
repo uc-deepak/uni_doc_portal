@@ -131,7 +131,6 @@ const sharedStyles = {
     container: {
       display: 'flex',
       minHeight: 'calc(100vh - 60px)',
-      flexDirection: 'row-reverse',
       [media.greaterThan('sidebarFixed')]: {
         maxWidth: 840,
         marginLeft: 'auto',
